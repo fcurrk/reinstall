@@ -44,7 +44,7 @@ then
 	echo -e "\033[33m You have chosen to install the latest CentOS_7 \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO Core_Install.sh 'https://github.com/fcurrk/reinstall/Core_Install.sh' && bash Core_Install.sh -dd 'http://disk.29296819.xyz/92shidai.com/dd/os/veip007/CentOS7.img.bak.gz'
+	wget --no-check-certificate -qO Core_Install.sh 'https://github.com/fcurrk/reinstall/Core_Install.sh' && bash Core_Install.sh -dd 'http://disk.29296819.xyz/92shidai.com/dd/os/veip007/CentOS-7.img.gz'
 fi
 
 if [ $1 = '-CentOS_6' ]
@@ -140,7 +140,7 @@ then
 	echo -e "\033[33m You have chosen to install the latest Windows_Server_2012R2 \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO Core_Install.sh 'https://github.com/fcurrk/reinstall/Core_Install.sh' && bash Core_Install.sh -dd 'http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2012r2x64/%E7%B2%BE%E7%AE%80%E7%89%88/WinSrv2012r2_v2.vhd.gz'
+	wget --no-check-certificate -qO Core_Install.sh 'https://github.com/fcurrk/reinstall/Core_Install.sh' && bash Core_Install.sh -dd 'http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2012r2x64/lite/WinSrv2012r2_v2.vhd.gz'
 fi
 
 if [ $1 = '-Windows_Server_2008R2_LSJ' ]
@@ -148,7 +148,7 @@ then
 	echo -e "\033[33m You have chosen to install the latest Windows_Server_2008R2 \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO Core_Install.sh 'https://github.com/fcurrk/reinstall/Core_Install.sh' && bash Core_Install.sh -dd 'http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2008x64/%E7%B2%BE%E7%AE%80%E7%89%88/WinSrv2008x64-Chinese.vhd.gz'
+	wget --no-check-certificate -qO Core_Install.sh 'https://github.com/fcurrk/reinstall/Core_Install.sh' && bash Core_Install.sh -dd 'http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2008x64/lite/WinSrv2008x64-Chinese.vhd.gz'
 fi
 
 if [ $1 = '-Windows_7_x86_LSJ' ]

@@ -83,7 +83,7 @@ function start() {
   echo -ne "\nYour option: "
   read N
   case $N in
-    1) echo -e "\nPassword: Pwd@CentOS\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh --ip-addr $MAINIP --ip-gate $GATEWAYIP --ip-mask $NETMASK -dd 'http://pan.29296819.xyz/92shidai.com/dd/os/veip007/CentOS-7.img.gz' $DMIRROR ;;
+    1) echo -e "\nPassword: Pwd@CentOS\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh --ip-addr $MAINIP --ip-gate $GATEWAYIP --ip-mask $NETMASK -dd 'http://disk.29296819.xyz/92shidai.com/dd/os/veip007/CentOS-7.img.gz' $DMIRROR ;;
     2) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh --ip-addr $MAINIP --ip-gate $GATEWAYIP --ip-mask $NETMASK -dd 'http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/CentOS_8.X_NetInstallation.vhd.gz' $DMIRROR ;;
     3) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh --ip-addr $MAINIP --ip-gate $GATEWAYIP --ip-mask $NETMASK -dd 'http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/CentOS_7.X_NetInstallation.vhd.gz' $DMIRROR ;;
     4) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -c 6.10 -v 64 -a --ip-addr $MAINIP --ip-gate $GATEWAYIP --ip-mask $NETMASK $CMIRROR ;;
@@ -137,7 +137,7 @@ fi
 wget --no-check-certificate -qO /tmp/Core_Install.sh 'https://github.com/fcurrk/reinstall/Core_Install.sh' && chmod a+x /tmp/Core_Install.sh
 
 if [[ "$isCN" == '1' ]];then
-  sed -i 's#http://disk.29296819.xyz/92shidai.com/dd/img/wget_udeb_amd64.tar.gz#https://pan.1631p46.top/reinstall/wget_udeb_amd64.tar.gz#' /tmp/Core_Install.sh
+  sed -i 's#http://disk.29296819.xyz/92shidai.com/dd/img/wget_udeb_amd64.tar.gz#https://github.com/fcurrk/reinstall/wget_udeb_amd64.tar.gz#' /tmp/Core_Install.sh
   CMIRROR="--mirror http://mirrors.aliyun.com/centos/"
   CVMIRROR="--mirror http://mirrors.tuna.tsinghua.edu.cn/centos-vault/"
   DMIRROR="--mirror http://mirrors.aliyun.com/debian/"
