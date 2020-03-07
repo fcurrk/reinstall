@@ -134,7 +134,7 @@ fi
 if [ -f "/tmp/Core_Install.sh" ]; then
   rm -f /tmp/Core_Install.sh
 fi
-wget --no-check-certificate -qO /tmp/Core_Install.sh 'https://pan.1631p46.top/reinstall/Core_Install.sh' && chmod a+x /tmp/Core_Install.sh
+wget --no-check-certificate -qO /tmp/Core_Install.sh 'https://github.com/fcurrk/reinstall/Core_Install.sh' && chmod a+x /tmp/Core_Install.sh
 
 if [[ "$isCN" == '1' ]];then
   sed -i 's#http://disk.29296819.xyz/92shidai.com/dd/img/wget_udeb_amd64.tar.gz#https://pan.1631p46.top/reinstall/wget_udeb_amd64.tar.gz#' /tmp/Core_Install.sh
