@@ -1,5 +1,5 @@
 # 一键DD脚本
-一键DD脚本，支持性好，更智能更全面。
+一键DD脚本，支持性好，更智能更全面，支持国内外各种VPS重装，特别是对国内各种访问国外资源慢的VPS安装有奇效。
 
 # 安装重装系统的前提组件:
 
@@ -59,17 +59,37 @@ wget --no-check-certificate -O AutoReinstall.sh https://raw.githubusercontent.co
  7、Debian 8 (默认密码Minijer.com)
  
  8、Debian 7 (默认密码Minijer.com)
+ 
  9、Ubuntu 18.04 (默认密码Minijer.com)
+ 
 10、Ubuntu 16.04 (默认密码Minijer.com)
+
 11、Ubuntu 14.04 (默认密码Minijer.com)
+
 12、Windows Server 2019 (默认密码cxthhhhh.com)
+
 13、Windows Server 2016 (默认密码cxthhhhh.com)
+
 14、Windows Server 2012 (默认密码cxthhhhh.com)
+
 15、Windows Server 2012 Lite (默认密码WinSrv2012r2)
+
 16、Windows Server 2008 (默认密码cxthhhhh.com)
+
 17、Windows Server 2008 Lite (默认密码WinSrv2008x64-Chinese)
+
 18、Windows Server 2003 (默认密码Linode)
+
 19、Windows Server 2003 Lite (默认密码WinSrv2003x86-Chinese)
+
 20、Windows 10 LTSC Lite (默认密码www.nat.ee)
+
 21、Windows 7 x86 Lite (默认密码Windows7x86-Chinese)
+
 22、Windows 7 Ent Lite (默认密码www.nat.ee)
+
+99、自定义镜像
+
+# 注意
+
+经测试在谷歌云原版系统基础上DD会出现自动获取的子网掩码为255.255.255.255,如出现这种情况需要手工输入改正为正确的如255.255.255.0,否则会安装完成离线。
