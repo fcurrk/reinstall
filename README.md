@@ -1,2 +1,2 @@
-使用教程：
+# 使用教程：
 https://git.beta.gs/
