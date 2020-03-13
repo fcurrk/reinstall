@@ -146,8 +146,8 @@ function Start() {
 
   [[ "$isCN" == '1' ]] && echo "Using domestic mode."
 
-  if [ -f "/tmp/InstallNET.sh" ]; then
-    rm -f /tmp/InstallNET.sh
+  if [ -f "/tmp/Core_Install.sh" ]; then
+    rm -f /tmp/Core_Install.sh
   fi
   wget --no-check-certificate -qO /tmp/Core_Install.sh 'https://raw.githubusercontent.com/fcurrk/reinstall/master/Core_Install.sh' && chmod a+x /tmp/Core_Install.sh
   
@@ -221,7 +221,7 @@ function Start() {
       echo -e "\n"
       read -r -p "Are you sure start reinstall? [Y/n]: " input
       case $input in
-        [yY][eE][sS]|[yY]) bash /tmp/InstallNET.sh $NETSTR -dd $imgURL $DMIRROR ;;
+        [yY][eE][sS]|[yY]) bash /tmp/Core_Install.sh $NETSTR -dd $imgURL $DMIRROR ;;
         *) clear; echo "Canceled by user!"; exit 1;;
       esac
       ;;
