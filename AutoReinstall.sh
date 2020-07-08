@@ -155,20 +155,50 @@ function Start() {
   CVMIRROR=''
   DMIRROR=''
   UMIRROR=''
+  SYSMIRROR1='http://disk.29296819.xyz/92shidai.com/dd/os/veip007/CentOS-7.img.gz'
+  SYSMIRROR2='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/CentOS_7.X_NetInstallation.vhd.gz'
+  SYSMIRROR3='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/CentOS_8.X_NetInstallation.vhd.gz'
+  SYSMIRROR12='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/Disk_Windows_Server_2019_DataCenter_CN.vhd.gz'
+  SYSMIRROR13='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/Disk_Windows_Server_2016_DataCenter_CN.vhd.gz'
+  SYSMIRROR14='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/Disk_Windows_Server_2012R2_DataCenter_CN.vhd.gz'
+  SYSMIRROR15='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2012r2x64/lite/WinSrv2012r2_v2.vhd.gz'
+  SYSMIRROR16='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/Disk_Windows_Server_2008R2_DataCenter_CN.vhd.gz'
+  SYSMIRROR17='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2008x64/lite/WinSrv2008x64-Chinese.vhd.gz'
+  SYSMIRROR18='http://disk.29296819.xyz/92shidai.com/dd/os/other/cn2003-virtio-pass-Linode.gz'
+  SYSMIRROR19='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2003/10G/WinSrv2003x86-Chinese-C10G.vhd.gz'
+  SYSMIRROR20='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win10/Win10_x64.vhd.gz'
+  SYSMIRROR21='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/Windows7x86-Chinese.vhd.gz'
+  SYSMIRROR22='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/Win7-Ent.gz'
+
   if [[ "$isCN" == '1' ]];then
-    sed -i 's#http://disk.29296819.xyz/92shidai.com/dd/img/wget_udeb_amd64.tar.gz#https://raw.githubusercontent.com/fcurrk/reinstall/master/wget_udeb_amd64.tar.gz#' /tmp/Core_Install.sh
+    sed -i 's#http://disk.29296819.xyz/92shidai.cn/dd/img/wget_udeb_amd64.tar.gz#https://raw.githubusercontent.com/fcurrk/reinstall/master/wget_udeb_amd64.tar.gz#' /tmp/Core_Install.sh
     CMIRROR="--mirror http://mirrors.aliyun.com/centos/"
     CVMIRROR="--mirror http://mirrors.tuna.tsinghua.edu.cn/centos-vault/"
     DMIRROR="--mirror http://mirrors.aliyun.com/debian/"
     UMIRROR="--mirror http://mirrors.aliyun.com/ubuntu/"
+    SYSMIRROR1='http://disk.29296819.xyz/92shidai.cn/dd/os/veip007/CentOS-7.img.gz'
+    SYSMIRROR2='http://disk.29296819.xyz/92shidai.cn/dd/os/cxthhhhh/CentOS_7.X_NetInstallation.vhd.gz'
+    SYSMIRROR3='http://disk.29296819.xyz/92shidai.cn/dd/os/cxthhhhh/CentOS_8.X_NetInstallation.vhd.gz'
+    SYSMIRROR12='http://disk.29296819.xyz/92shidai.cn/dd/os/cxthhhhh/Disk_Windows_Server_2019_DataCenter_CN.vhd.gz'
+    SYSMIRROR13='http://disk.29296819.xyz/92shidai.cn/dd/os/cxthhhhh/Disk_Windows_Server_2016_DataCenter_CN.vhd.gz'
+    SYSMIRROR14='http://disk.29296819.xyz/92shidai.cn/dd/os/cxthhhhh/Disk_Windows_Server_2012R2_DataCenter_CN.vhd.gz'
+    SYSMIRROR15='http://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/WinSrv2012r2x64/lite/WinSrv2012r2_v2.vhd.gz'
+    SYSMIRROR16='http://disk.29296819.xyz/92shidai.cn/dd/os/cxthhhhh/Disk_Windows_Server_2008R2_DataCenter_CN.vhd.gz'
+    SYSMIRROR17='http://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/WinSrv2008x64/lite/WinSrv2008x64-Chinese.vhd.gz'
+    SYSMIRROR18='http://disk.29296819.xyz/92shidai.cn/dd/os/other/cn2003-virtio-pass-Linode.gz'
+    SYSMIRROR19='http://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/WinSrv2003/10G/WinSrv2003x86-Chinese-C10G.vhd.gz'
+    SYSMIRROR20='http://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/Win10/Win10_x64.vhd.gz'
+    SYSMIRROR21='http://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/Win7/Windows7x86-Chinese.vhd.gz'
+    SYSMIRROR22='http://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/Win7/Win7-Ent.gz'
+
   fi
   
   sed -i 's/$1$UIl1uSg0$tAW9qjOqoCto0CIUgUwHT1/$1$C7j0ZaEl$4qQdj2VyJFH1neyqcO0qm0/' /tmp/Core_Install.sh
 
   echo -e "\nPlease select an OS:"
   echo "   1) CentOS 7.7 (ext4)"
-  echo "   2) CentOS 8 (cxthhhh)"
-  echo "   3) CentOS 7 (cxthhhh)"
+  echo "   2) CentOS 7 (cxthhhh)"
+  echo "   3) CentOS 8 (cxthhhh)"
   echo "   4) CentOS 6"
   echo "   5) Debian 10"
   echo "   6) Debian 9"
@@ -193,9 +223,9 @@ function Start() {
   echo -ne "\nYour option: "
   read N
   case $N in
-    1) echo -e "\nPassword: Pwd@CentOS\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd 'http://disk.29296819.xyz/92shidai.com/dd/os/veip007/CentOS-7.img.gz' $DMIRROR ;;
-    2) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd 'http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/CentOS_8.X_NetInstallation.vhd.gz' $DMIRROR ;;
-    3) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd 'http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/CentOS_7.X_NetInstallation.vhd.gz' $DMIRROR ;;
+    1) echo -e "\nPassword: Pwd@CentOS\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR1 $DMIRROR ;;
+    2) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR2 $DMIRROR ;;
+    3) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR3 $DMIRROR ;;
     4) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -c 6.10 -v 64 -a $NETSTR $CMIRROR ;;
     5) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -d 10 -v 64 -a $NETSTR $DMIRROR ;;
     6) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -d 9 -v 64 -a $NETSTR $DMIRROR ;;
@@ -204,17 +234,17 @@ function Start() {
     9) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -u 18.04 -v 64 -a $NETSTR $UMIRROR ;;
     10) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -u 16.04 -v 64 -a $NETSTR $UMIRROR ;;
     11) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -u 14.04 -v 64 -a $NETSTR $UMIRROR ;;
-    12) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd 'http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/Disk_Windows_Server_2019_DataCenter_CN.vhd.gz' $DMIRROR ;;
-    13) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd 'http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/Disk_Windows_Server_2016_DataCenter_CN.vhd.gz' $DMIRROR ;;
-    14) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd 'http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/Disk_Windows_Server_2012R2_DataCenter_CN.vhd.gz' $DMIRROR ;;
-    15) echo -e "\nPassword: WinSrv2012r2\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd 'http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2012r2x64/lite/WinSrv2012r2_v2.vhd.gz' $DMIRROR ;;
-    16) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd 'http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/Disk_Windows_Server_2008R2_DataCenter_CN.vhd.gz' $DMIRROR ;;
-    17) echo -e "\nPassword: WinSrv2008x64-Chinese\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd 'http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2008x64/lite/WinSrv2008x64-Chinese.vhd.gz' $DMIRROR ;;
-    18) echo -e "\nPassword: Linode\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd 'http://disk.29296819.xyz/92shidai.com/dd/os/other/cn2003-virtio-pass-Linode.gz' $DMIRROR ;;
-    19) echo -e "\nPassword: WinSrv2003x86-Chinese\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd 'http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2003/10G/WinSrv2003x86-Chinese-C10G.vhd.gz' $DMIRROR ;;
-    20) echo -e "\nPassword: www.nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd 'http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win10/Win10_x64.vhd.gz' $DMIRROR ;;
-    21) echo -e "\nPassword: Windows7x86-Chinese\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd 'http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/Windows7x86-Chinese.vhd.gz' $DMIRROR ;;
-    22) echo -e "\nPassword: www.nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd 'http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/Win7-Ent.gz' $DMIRROR ;;        
+    12) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR12 $DMIRROR ;;
+    13) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR13 $DMIRROR ;;
+    14) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR14 $DMIRROR ;;
+    15) echo -e "\nPassword: WinSrv2012r2\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR15 $DMIRROR ;;
+    16) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR16 $DMIRROR ;;
+    17) echo -e "\nPassword: WinSrv2008x64-Chinese\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR17 $DMIRROR ;;
+    18) echo -e "\nPassword: Linode\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR18 $DMIRROR ;;
+    19) echo -e "\nPassword: WinSrv2003x86-Chinese\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR19 $DMIRROR ;;
+    20) echo -e "\nPassword: www.nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR20 $DMIRROR ;;
+    21) echo -e "\nPassword: Windows7x86-Chinese\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR21 $DMIRROR ;;
+    22) echo -e "\nPassword: www.nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR22 $DMIRROR ;;        
     99)
       echo -e "\n"
       read -r -p "Custom image URL: " imgURL
