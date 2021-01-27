@@ -161,7 +161,7 @@ function Start() {
   SYSMIRROR12='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/Disk_Windows_Server_2019_DataCenter_CN.vhd.gz'
   SYSMIRROR13='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/Disk_Windows_Server_2016_DataCenter_CN.vhd.gz'
   SYSMIRROR14='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/Disk_Windows_Server_2012R2_DataCenter_CN.vhd.gz'
-  SYSMIRROR15='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2012r2x64/lite/WinSrv2012r2_v2.vhd.gz'
+  SYSMIRROR15='https://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2012r2x64/lite/winsrv2012r2-data-x64-cn.vhd.gz'
   SYSMIRROR16='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/Disk_Windows_Server_2008R2_DataCenter_CN.vhd.gz'
   SYSMIRROR17='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2008x64/lite/winsrv2008r2-data-sp1-x64-cn.vhd.gz'
   SYSMIRROR18='http://disk.29296819.xyz/92shidai.com/dd/os/other/cn2003-virtio-pass-Linode.gz'
@@ -182,7 +182,7 @@ function Start() {
     SYSMIRROR12='http://disk.29296819.xyz/92shidai.cn/dd/os/cxthhhhh/Disk_Windows_Server_2019_DataCenter_CN.vhd.gz'
     SYSMIRROR13='http://disk.29296819.xyz/92shidai.cn/dd/os/cxthhhhh/Disk_Windows_Server_2016_DataCenter_CN.vhd.gz'
     SYSMIRROR14='http://disk.29296819.xyz/92shidai.cn/dd/os/cxthhhhh/Disk_Windows_Server_2012R2_DataCenter_CN.vhd.gz'
-    SYSMIRROR15='http://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/WinSrv2012r2x64/lite/WinSrv2012r2_v2.vhd.gz'
+    SYSMIRROR15='https://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/WinSrv2012r2x64/lite/winsrv2012r2-data-x64-cn.vhd.gz'
     SYSMIRROR16='http://disk.29296819.xyz/92shidai.cn/dd/os/cxthhhhh/Disk_Windows_Server_2008R2_DataCenter_CN.vhd.gz'
     SYSMIRROR17='http://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/WinSrv2008x64/lite/winsrv2008r2-data-sp1-x64-cn.vhd.gz'
     SYSMIRROR18='http://disk.29296819.xyz/92shidai.cn/dd/os/other/cn2003-virtio-pass-Linode.gz'
@@ -235,7 +235,7 @@ function Start() {
     12) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR12 $DMIRROR ;;
     13) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR13 $DMIRROR ;;
     14) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR14 $DMIRROR ;;
-    15) echo -e "\nPassword: WinSrv2012r2\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR15 $DMIRROR ;;
+    15) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR15 $DMIRROR ;;
     16) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR16 $DMIRROR ;;
     17) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR17 $DMIRROR ;;
     18) echo -e "\nPassword: Linode\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR18 $DMIRROR ;;
