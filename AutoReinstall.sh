@@ -13,7 +13,7 @@ function CopyRight() {
   echo "#  Auto Reinstall Script                               #"
   echo "#                                                      #"
   echo "#  Author: hiCasper & Minijer                          #"
-  echo "#  Last Modified: 2021-05-09                           #"
+  echo "#  Last Modified: 2021-05-11                           #"
   echo "#                                                      #"
   echo "#  Supported by MoeClub & cxthhhhh                     #"
   echo "#                                                      #"
@@ -169,6 +169,9 @@ function Start() {
   SYSMIRROR20='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win10/Win10_x64.vhd.gz'
   SYSMIRROR21='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/Windows7x86-Chinese.vhd.gz'
   SYSMIRROR22='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/win7-ent-sp1-x64-cn.vhd.gz'
+  SYSMIRROR23='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/win7-ent-sp1-x64-cn-efi.vhd.gz'
+  SYSMIRROR24='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2008x64/lite/winsrv2008r2-data-sp1-x64-cn-efi.vhd.gz'
+  SYSMIRROR25='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2012r2x64/lite/winsrv2012r2-data-x64-cn-efi.vhd.gz'
 
   if [[ "$isCN" == '1' ]];then
     sed -i 's#http://disk.29296819.xyz/92shidai.cn/dd/img/wget_udeb_amd64.tar.gz#https://raw.githubusercontent.com/fcurrk/reinstall/master/wget_udeb_amd64.tar.gz#' /tmp/Core_Install.sh
@@ -190,6 +193,9 @@ function Start() {
     SYSMIRROR20='http://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/Win10/Win10_x64.vhd.gz'
     SYSMIRROR21='http://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/Win7/Windows7x86-Chinese.vhd.gz'
     SYSMIRROR22='http://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/Win7/win7-ent-sp1-x64-cn.vhd.gz'
+    SYSMIRROR23='http://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/Win7/win7-ent-sp1-x64-cn-efi.vhd.gz'
+    SYSMIRROR24='http://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/WinSrv2008x64/lite/winsrv2008r2-data-sp1-x64-cn-efi.vhd.gz'
+    SYSMIRROR25='http://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/WinSrv2012r2x64/lite/winsrv2012r2-data-x64-cn-efi.vhd.gz'
 
   fi
 
@@ -216,6 +222,9 @@ function Start() {
   echo "  20) Windows 10 LTSC Lite"
   echo "  21) Windows 7 x86 Lite"
   echo "  22) Windows 7 Ent Lite"
+  echo "  23) Windows 7 Ent Lite(UEFI)"
+  echo "  24) Windows Server 2008 Lite(UEFI)"
+  echo "  25) Windows Server 2012 Lite(UEFI)"
   echo "  99) Custom image"
   echo "   0) Exit"
   echo -ne "\nYour option: "
@@ -242,7 +251,10 @@ function Start() {
     19) echo -e "\nPassword: WinSrv2003x86-Chinese\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR19 $DMIRROR ;;
     20) echo -e "\nPassword: www.nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR20 $DMIRROR ;;
     21) echo -e "\nPassword: Windows7x86-Chinese\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR21 $DMIRROR ;;
-    22) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR22 $DMIRROR ;;        
+    22) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR22 $DMIRROR ;;   
+    23) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR23 $DMIRROR ;;   
+    24) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR24 $DMIRROR ;;   
+    25) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR25 $DMIRROR ;;   
     99)
       echo -e "\n"
       read -r -p "Custom image URL: " imgURL
