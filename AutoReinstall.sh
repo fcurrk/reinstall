@@ -13,7 +13,7 @@ function CopyRight() {
   echo "#  Auto Reinstall Script                               #"
   echo "#                                                      #"
   echo "#  Author: hiCasper & Minijer                          #"
-  echo "#  Last Modified: 2021-05-11                           #"
+  echo "#  Last Modified: 2021-09-09                           #"
   echo "#                                                      #"
   echo "#  Supported by MoeClub & cxthhhhh                     #"
   echo "#                                                      #"
@@ -204,10 +204,10 @@ function Start() {
   echo "   2) CentOS 7 (cxthhhh)"
   echo "   3) CentOS 8 (cxthhhh)"
   echo "   4) CentOS 6"
-  echo "   5) Debian 10"
-  echo "   6) Debian 9"
-  echo "   7) Debian 8"
-  echo "   8) Debian 7"
+  echo "   5) Debian 11"
+  echo "   6) Debian 10"
+  echo "   7) Debian 9"
+  echo "   8) Debian 8"
   echo "   9) Ubuntu 20.04"
   echo "  10) Ubuntu 18.04"
   echo "  11) Ubuntu 16.04"
@@ -234,10 +234,10 @@ function Start() {
     2) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR2 $DMIRROR ;;
     3) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR3 $DMIRROR ;;
     4) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -c 6.10 -v 64 -a $NETSTR $CMIRROR ;;
-    5) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -d 10 -v 64 -a $NETSTR $DMIRROR ;;
-    6) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -d 9 -v 64 -a $NETSTR $DMIRROR ;;
-    7) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -d 8 -v 64 -a $NETSTR $DMIRROR ;;
-    8) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -d 7 -v 64 -a $NETSTR $DMIRROR ;;
+    5) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -d 11 -v 64 -a $NETSTR $DMIRROR ;;
+    6) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -d 10 -v 64 -a $NETSTR $DMIRROR ;;
+    7) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -d 9 -v 64 -a $NETSTR $DMIRROR ;;
+    8) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -d 8 -v 64 -a $NETSTR $DMIRROR ;;
     9) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -u 20.04 -v 64 -a $NETSTR $UMIRROR ;;
     10) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -u 18.04 -v 64 -a $NETSTR $UMIRROR ;;
     11) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh -u 16.04 -v 64 -a $NETSTR $UMIRROR ;;
