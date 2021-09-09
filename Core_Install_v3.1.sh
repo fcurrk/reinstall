@@ -262,7 +262,7 @@ fi
 [ -z "$VER" ] && VER='amd64'
 
 if [[ -z "$tmpDIST" ]]; then
-  [ "$Relese" == 'Debian' ] && tmpDIST='jessie' && DIST='jessie';
+  [ "$Relese" == 'Debian' ] && tmpDIST='jessie' && DIST='buster';
   [ "$Relese" == 'Ubuntu' ] && tmpDIST='bionic' && DIST='bionic';
   [ "$Relese" == 'CentOS' ] && tmpDIST='6.10' && DIST='6.10';
 fi
@@ -730,6 +730,7 @@ popularity-contest popularity-contest/participate boolean false
 
 d-i grub-installer/only_debian boolean true
 d-i grub-installer/bootdev string default
+d-i grub-installer/force-efi-extra-removable boolean true
 d-i finish-install/reboot_in_progress note
 d-i debian-installer/exit/reboot boolean true
 d-i preseed/late_command string	\
