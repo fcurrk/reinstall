@@ -149,7 +149,13 @@ function Start() {
   if [ -f "/tmp/Core_Install.sh" ]; then
     rm -f /tmp/Core_Install.sh
   fi
-  wget --no-check-certificate -qO /tmp/Core_Install.sh 'https://raw.githubusercontent.com/fcurrk/reinstall/master/Core_Install_v3.1.sh' && chmod a+x /tmp/Core_Install.sh
+  
+  if [ "$isCN" == '1' ]; then
+   corefile = 'https://cdn.jsdelivr.net/gh/fcurrk/reinstall@master/Core_Install_v3.1.sh'
+  else 
+   corefile = 'https://raw.githubusercontent.com/fcurrk/reinstall/master/Core_Install_v3.1.sh'
+  fi
+  wget --no-check-certificate -qO /tmp/Core_Install.sh $corefile && chmod a+x /tmp/Core_Install.sh
   
   CMIRROR=''
   CVMIRROR=''
