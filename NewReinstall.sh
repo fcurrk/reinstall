@@ -10,12 +10,12 @@ function CopyRight() {
   clear
   echo "########################################################"
   echo "#                                                      #"
-  echo "#  Auto Reinstall Script                               #"
+  echo "#  New Reinstall Script                                #"
   echo "#                                                      #"
-  echo "#  Author: hiCasper & Minijer                          #"
-  echo "#  Last Modified: 2021-11-20                          #"
+  echo "#  Author: Minijer & hiCasper                          #"
+  echo "#  Last Modified: 2021-11-20                           #"
   echo "#                                                      #"
-  echo "#  Supported by MoeClub                                #"
+  echo "#  Shell By MoeClub                                    #"
   echo "#                                                      #"
   echo "########################################################"
   echo -e "\n"
@@ -162,7 +162,7 @@ function Start() {
   UMIRROR=''
   SYSMIRROR1='http://disk.29296819.xyz/92shidai.com/dd/os/veip007/CentOS-7.img.gz'
   SYSMIRROR2='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/CentOS_7.X_NetInstallation_Final.vhd.gz'
-  SYSMIRROR3='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/CentOS_8.X_NetInstallation.vhd.gz'
+  SYSMIRROR3='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/CentOS_8.X_NetInstallation_Stable_v2.3.vhd.gz'
   SYSMIRROR12='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/new/Disk_Windows_Server_2019_DataCenter_CN_v5.1.vhd.gz'
   SYSMIRROR13='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/new/Disk_Windows_Server_2016_DataCenter_CN_v4.12.vhd.gz'
   SYSMIRROR14='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/new/Disk_Windows_Server_2012R2_DataCenter_CN_v4.29.vhd.gz'
@@ -172,9 +172,9 @@ function Start() {
   SYSMIRROR18='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/new/Disk_Windows_Server_2003_DataCenter_CN_v7.1.vhd.gz'
   SYSMIRROR19='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2003/10G/WinSrv2003x86-Chinese-C10G.vhd.gz'
   SYSMIRROR20='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win10/Win10_x64.vhd.gz'
-  SYSMIRROR21='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/Windows7x86-Chinese.vhd.gz'
-  SYSMIRROR22='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/win7-ent-sp1-x64-cn.vhd.gz'
-  SYSMIRROR23='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/win7-ent-sp1-x64-cn-efi.vhd.gz'
+  SYSMIRROR21='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/guajibao/guajibao-win7-sp1-ent-x86-cn.vhd.gz'
+  SYSMIRROR22='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/new/win7-ent-sp1-x64-cn.vhd.gz'
+  SYSMIRROR23='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/new/win7-ent-sp1-x64-cn-efi.vhd.gz'
   SYSMIRROR24='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2008x64/lite/winsrv2008r2-data-sp1-x64-cn-efi.vhd.gz'
   SYSMIRROR25='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2012r2x64/lite/winsrv2012r2-data-x64-cn-efi.vhd.gz'
 
@@ -185,7 +185,7 @@ function Start() {
     UMIRROR="--mirror http://mirrors.aliyun.com/ubuntu/"
     SYSMIRROR1='http://disk.29296819.xyz/92shidai.cn/dd/os/veip007/CentOS-7.img.gz'
     SYSMIRROR2='http://disk.29296819.xyz/92shidai.cn/dd/os/cxthhhhh/CentOS_7.X_NetInstallation_Final.vhd.gz'
-    SYSMIRROR3='http://disk.29296819.xyz/92shidai.cn/dd/os/cxthhhhh/CentOS_8.X_NetInstallation.vhd.gz'
+    SYSMIRROR3='http://disk.29296819.xyz/92shidai.cn/dd/os/cxthhhhh/CentOS_8.X_NetInstallation_Stable_v2.3.vhd.gz'
     SYSMIRROR12='http://disk.29296819.xyz/92shidai.cn/dd/os/cxthhhhh/new/Disk_Windows_Server_2019_DataCenter_CN_v5.1.vhd.gz'
     SYSMIRROR13='http://disk.29296819.xyz/92shidai.cn/dd/os/cxthhhhh/new/Disk_Windows_Server_2016_DataCenter_CN_v4.12.vhd.gz'
     SYSMIRROR14='http://disk.29296819.xyz/92shidai.cn/dd/os/cxthhhhh/new/Disk_Windows_Server_2012R2_DataCenter_CN_v4.29.vhd.gz'
@@ -195,9 +195,9 @@ function Start() {
     SYSMIRROR18='http://disk.29296819.xyz/92shidai.cn/dd/os/cxthhhhh/new/Disk_Windows_Server_2003_DataCenter_CN_v7.1.vhd.gz'
     SYSMIRROR19='http://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/WinSrv2003/10G/WinSrv2003x86-Chinese-C10G.vhd.gz'
     SYSMIRROR20='http://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/Win10/Win10_x64.vhd.gz'
-    SYSMIRROR21='http://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/Win7/Windows7x86-Chinese.vhd.gz'
-    SYSMIRROR22='http://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/Win7/win7-ent-sp1-x64-cn.vhd.gz'
-    SYSMIRROR23='http://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/Win7/win7-ent-sp1-x64-cn-efi.vhd.gz'
+    SYSMIRROR21='http://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/Win7/guajibao/guajibao-win7-sp1-ent-x86-cn.vhd.gz'
+    SYSMIRROR22='http://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/Win7/new/win7-ent-sp1-x64-cn.vhd.gz'
+    SYSMIRROR23='http://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/Win7/new/win7-ent-sp1-x64-cn-efi.vhd.gz'
     SYSMIRROR24='http://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/WinSrv2008x64/lite/winsrv2008r2-data-sp1-x64-cn-efi.vhd.gz'
     SYSMIRROR25='http://disk.29296819.xyz/92shidai.cn/dd/os/laosiji/WinSrv2012r2x64/lite/winsrv2012r2-data-x64-cn-efi.vhd.gz'
 
@@ -237,14 +237,134 @@ function Start() {
     1) echo -e "\nPassword: Pwd@CentOS\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR1 $DMIRROR ;;
     2) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR2 $DMIRROR ;;
     3) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR3 $DMIRROR ;;
-    4) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -c 6.10 -v 64 -a $NETSTR $CMIRROR ;;
-    5) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 11 -v 64 -a $NETSTR $DMIRROR ;;
-    6) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 10 -v 64 -a $NETSTR $DMIRROR ;;
-    7) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 9 -v 64 -a $NETSTR $DMIRROR ;;
-    8) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 8 -v 64 -a $NETSTR $DMIRROR ;;
-    9) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 20.04 -v 64 -a $NETSTR $UMIRROR ;;
-    10) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 18.04 -v 64 -a $NETSTR $UMIRROR ;;
-    11) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 16.04 -v 64 -a $NETSTR $UMIRROR ;;
+    4) 
+       echo -e "\n"
+       read -r -p "Custom Password? [Y/n]: " input
+       case $input in
+         [yY][eE][sS]|[yY])
+	 echo -e "\n"
+         read -r -p "Press input Password(More than 8 characters and numbers. eg: Minijer123): " mypasswd
+	 if [[ "$mypasswd" =~ ^[a-zA-Z0-9]{8,}$ ]]; then
+            MYPASSWORD="-p ${mypasswd}"
+         else
+	    clear; echo "The password must exceed 8 characters and numbers!"; exit 1
+         fi
+         echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -c 6.10 -v 64 $MYPASSWORD $NETSTR $CMIRROR;;
+        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -c 6.10 -v 64 -a $NETSTR $CMIRROR;;
+      esac
+      ;;      
+    5) 
+       echo -e "\n"
+       read -r -p "Custom Password? [Y/n]: " input
+       case $input in
+         [yY][eE][sS]|[yY])
+	 echo -e "\n"
+         read -r -p "Press input Password(More than 8 characters and numbers. eg: Minijer123): " mypasswd
+	 if [[ "$mypasswd" =~ ^[a-zA-Z0-9]{8,}$ ]]; then
+            MYPASSWORD="-p ${mypasswd}"
+         else
+	    clear; echo "The password must exceed 8 characters and numbers!"; exit 1
+         fi
+         echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 11 -v 64 $MYPASSWORD $NETSTR $DMIRROR;;
+        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 11 -v 64 -a $NETSTR $DMIRROR;;
+      esac
+      ;; 
+    6) 
+       echo -e "\n"
+       read -r -p "Custom Password? [Y/n]: " input
+       case $input in
+         [yY][eE][sS]|[yY])
+	 echo -e "\n"
+         read -r -p "Press input Password(More than 8 characters and numbers. eg: Minijer123): " mypasswd
+	 if [[ "$mypasswd" =~ ^[a-zA-Z0-9]{8,}$ ]]; then
+            MYPASSWORD="-p ${mypasswd}"
+         else
+	    clear; echo "The password must exceed 8 characters and numbers!"; exit 1
+         fi
+         echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 10 -v 64 $MYPASSWORD $NETSTR $DMIRROR;;
+        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 10 -v 64 -a $NETSTR $DMIRROR;;
+      esac
+      ;; 
+    7) 
+       echo -e "\n"
+       read -r -p "Custom Password? [Y/n]: " input
+       case $input in
+         [yY][eE][sS]|[yY])
+	 echo -e "\n"
+         read -r -p "Press input Password(More than 8 characters and numbers. eg: Minijer123): " mypasswd
+	 if [[ "$mypasswd" =~ ^[a-zA-Z0-9]{8,}$ ]]; then
+            MYPASSWORD="-p ${mypasswd}"
+         else
+	    clear; echo "The password must exceed 8 characters and numbers!"; exit 1
+         fi
+         echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 9 -v 64 $MYPASSWORD $NETSTR $DMIRROR;;
+        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 9 -v 64 -a $NETSTR $DMIRROR;;
+      esac
+      ;; 
+    8)
+       echo -e "\n"
+       read -r -p "Custom Password? [Y/n]: " input
+       case $input in
+         [yY][eE][sS]|[yY])
+	 echo -e "\n"
+         read -r -p "Press input Password(More than 8 characters and numbers. eg: Minijer123): " mypasswd
+	 if [[ "$mypasswd" =~ ^[a-zA-Z0-9]{8,}$ ]]; then
+            MYPASSWORD="-p ${mypasswd}"
+         else
+	    clear; echo "The password must exceed 8 characters and numbers!"; exit 1
+         fi
+         echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 8 -v 64 $MYPASSWORD $NETSTR $DMIRROR;;
+        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 8 -v 64 -a $NETSTR $DMIRROR;;
+      esac
+      ;; 
+    9) 
+       echo -e "\n"
+       read -r -p "Custom Password? [Y/n]: " input
+       case $input in
+         [yY][eE][sS]|[yY])
+	 echo -e "\n"
+         read -r -p "Press input Password(More than 8 characters and numbers. eg: Minijer123): " mypasswd
+	 if [[ "$mypasswd" =~ ^[a-zA-Z0-9]{8,}$ ]]; then
+            MYPASSWORD="-p ${mypasswd}"
+         else
+	    clear; echo "The password must exceed 8 characters and numbers!"; exit 1
+         fi
+         echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 20.04 -v 64 $MYPASSWORD $NETSTR $UMIRROR;;
+        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 20.04 -v 64 -a $NETSTR $UMIRROR;;
+      esac
+      ;; 
+    10) 
+       echo -e "\n"
+       read -r -p "Custom Password? [Y/n]: " input
+       case $input in
+         [yY][eE][sS]|[yY])
+	 echo -e "\n"
+         read -r -p "Press input Password(More than 8 characters and numbers. eg: Minijer123): " mypasswd
+	 if [[ "$mypasswd" =~ ^[a-zA-Z0-9]{8,}$ ]]; then
+            MYPASSWORD="-p ${mypasswd}"
+         else
+	    clear; echo "The password must exceed 8 characters and numbers!"; exit 1
+         fi
+         echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 18.04 -v 64 $MYPASSWORD $NETSTR $UMIRROR;;
+        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 18.04 -v 64 -a $NETSTR $UMIRROR;;
+      esac
+      ;; 
+    11) 
+       echo -e "\n"
+       read -r -p "Custom Password? [Y/n]: " input
+       case $input in
+         [yY][eE][sS]|[yY])
+	 echo -e "\n"
+         read -r -p "Press input Password(More than 8 characters and numbers. eg: Minijer123): " mypasswd
+	 if [[ "$mypasswd" =~ ^[a-zA-Z0-9]{8,}$ ]]; then
+            MYPASSWORD="-p ${mypasswd}"
+         else
+	    clear; echo "The password must exceed 8 characters and numbers!"; exit 1
+         fi
+         echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 16.04 -v 64 $MYPASSWORD $NETSTR $UMIRROR;;
+        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 16.04 -v 64 -a $NETSTR $UMIRROR;;
+      esac
+      ;; 
     12) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR12 $DMIRROR ;;
     13) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR13 $DMIRROR ;;
     14) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR14 $DMIRROR ;;
