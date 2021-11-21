@@ -162,7 +162,7 @@ function Start() {
   UMIRROR=''
   SYSMIRROR1='http://disk.29296819.xyz/92shidai.com/dd/os/veip007/CentOS-7.img.gz'
   SYSMIRROR2='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/CentOS_7.X_NetInstallation_Final.vhd.gz'
-  SYSMIRROR3='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/CentOS_8.X_NetInstallation_Stable_v2.3.vhd.gz'
+  SYSMIRROR3='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/CentOS_8.X_NetInstallation_Stable_v4.2.vhd.gz'
   SYSMIRROR12='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/new/Disk_Windows_Server_2019_DataCenter_CN_v5.1.vhd.gz'
   SYSMIRROR13='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/new/Disk_Windows_Server_2016_DataCenter_CN_v4.12.vhd.gz'
   SYSMIRROR14='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/new/Disk_Windows_Server_2012R2_DataCenter_CN_v4.29.vhd.gz'
@@ -185,7 +185,7 @@ function Start() {
     UMIRROR="--mirror http://mirrors.aliyun.com/ubuntu/"
     SYSMIRROR1='http://disk.29296819.xyz/92shidai.cn/dd/os/veip007/CentOS-7.img.gz'
     SYSMIRROR2='http://disk.29296819.xyz/92shidai.cn/dd/os/cxthhhhh/CentOS_7.X_NetInstallation_Final.vhd.gz'
-    SYSMIRROR3='http://disk.29296819.xyz/92shidai.cn/dd/os/cxthhhhh/CentOS_8.X_NetInstallation_Stable_v2.3.vhd.gz'
+    SYSMIRROR3='http://disk.29296819.xyz/92shidai.cn/dd/os/cxthhhhh/CentOS_8.X_NetInstallation_Stable_v4.2.vhd.gz'
     SYSMIRROR12='http://disk.29296819.xyz/92shidai.cn/dd/os/cxthhhhh/new/Disk_Windows_Server_2019_DataCenter_CN_v5.1.vhd.gz'
     SYSMIRROR13='http://disk.29296819.xyz/92shidai.cn/dd/os/cxthhhhh/new/Disk_Windows_Server_2016_DataCenter_CN_v4.12.vhd.gz'
     SYSMIRROR14='http://disk.29296819.xyz/92shidai.cn/dd/os/cxthhhhh/new/Disk_Windows_Server_2012R2_DataCenter_CN_v4.29.vhd.gz'
