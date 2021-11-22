@@ -250,7 +250,7 @@ function Start() {
 	    clear; echo "The password must exceed 8 characters and numbers!"; exit 1
          fi
          echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -c 6.10 -v 64 $MYPASSWORD $NETSTR $CMIRROR;;
-        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -c 6.10 -v 64 -a $NETSTR $CMIRROR;;
+        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -c 6.10 -v 64 $NETSTR $CMIRROR;;
       esac
       ;;      
     5) 
@@ -266,7 +266,7 @@ function Start() {
 	    clear; echo "The password must exceed 8 characters and numbers!"; exit 1
          fi
          echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 11 -v 64 $MYPASSWORD $NETSTR $DMIRROR;;
-        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 11 -v 64 -a $NETSTR $DMIRROR;;
+        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 11 -v 64 $NETSTR $DMIRROR;;
       esac
       ;; 
     6) 
@@ -282,7 +282,7 @@ function Start() {
 	    clear; echo "The password must exceed 8 characters and numbers!"; exit 1
          fi
          echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 10 -v 64 $MYPASSWORD $NETSTR $DMIRROR;;
-        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 10 -v 64 -a $NETSTR $DMIRROR;;
+        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 10 -v 64 $NETSTR $DMIRROR;;
       esac
       ;; 
     7) 
@@ -298,7 +298,7 @@ function Start() {
 	    clear; echo "The password must exceed 8 characters and numbers!"; exit 1
          fi
          echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 9 -v 64 $MYPASSWORD $NETSTR $DMIRROR;;
-        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 9 -v 64 -a $NETSTR $DMIRROR;;
+        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 9 -v 64 $NETSTR $DMIRROR;;
       esac
       ;; 
     8)
@@ -314,7 +314,7 @@ function Start() {
 	    clear; echo "The password must exceed 8 characters and numbers!"; exit 1
          fi
          echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 8 -v 64 $MYPASSWORD $NETSTR $DMIRROR;;
-        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 8 -v 64 -a $NETSTR $DMIRROR;;
+        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 8 -v 64 $NETSTR $DMIRROR;;
       esac
       ;; 
     9) 
@@ -330,7 +330,7 @@ function Start() {
 	    clear; echo "The password must exceed 8 characters and numbers!"; exit 1
          fi
          echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 20.04 -v 64 $MYPASSWORD $NETSTR $UMIRROR;;
-        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 20.04 -v 64 -a $NETSTR $UMIRROR;;
+        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 20.04 -v 64 $NETSTR $UMIRROR;;
       esac
       ;; 
     10) 
@@ -346,7 +346,7 @@ function Start() {
 	    clear; echo "The password must exceed 8 characters and numbers!"; exit 1
          fi
          echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 18.04 -v 64 $MYPASSWORD $NETSTR $UMIRROR;;
-        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 18.04 -v 64 -a $NETSTR $UMIRROR;;
+        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 18.04 -v 64 $NETSTR $UMIRROR;;
       esac
       ;; 
     11) 
@@ -362,7 +362,7 @@ function Start() {
 	    clear; echo "The password must exceed 8 characters and numbers!"; exit 1
          fi
          echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 16.04 -v 64 $MYPASSWORD $NETSTR $UMIRROR;;
-        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 16.04 -v 64 -a $NETSTR $UMIRROR;;
+        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 16.04 -v 64 $NETSTR $UMIRROR;;
       esac
       ;; 
     12) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR12 $DMIRROR ;;
