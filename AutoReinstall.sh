@@ -149,34 +149,34 @@ function Start() {
   if [ -f "/tmp/Core_Install.sh" ]; then
     rm -f /tmp/Core_Install.sh
   fi
-  
+
   if [[ "$isCN" == '1' ]]; then
    wget --no-check-certificate -qO /tmp/Core_Install.sh 'https://cdn.jsdelivr.net/gh/fcurrk/reinstall@master/Core_Install_v3.1.sh' && chmod a+x /tmp/Core_Install.sh
   else 
    wget --no-check-certificate -qO /tmp/Core_Install.sh 'https://raw.githubusercontent.com/fcurrk/reinstall/master/Core_Install_v3.1.sh' && chmod a+x /tmp/Core_Install.sh
   fi
-  
+
   CMIRROR=''
   CVMIRROR=''
   DMIRROR=''
   UMIRROR=''
   SYSMIRROR1='http://disk.29296819.xyz/92shidai.com/dd/os/veip007/CentOS-7.img.gz'
   SYSMIRROR2='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/CentOS_7.X_NetInstallation_Final.vhd.gz'
-  SYSMIRROR3='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/CentOS_8.X_NetInstallation.vhd.gz'
+  SYSMIRROR3='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/CentOS_8.X_NetInstallation_Stable_v4.2.vhd.gz'
   SYSMIRROR12='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/new/Disk_Windows_Server_2019_DataCenter_CN_v5.1.vhd.gz'
   SYSMIRROR13='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/new/Disk_Windows_Server_2016_DataCenter_CN_v4.12.vhd.gz'
   SYSMIRROR14='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/new/Disk_Windows_Server_2012R2_DataCenter_CN_v4.29.vhd.gz'
-  SYSMIRROR15='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2012r2x64/lite/winsrv2012r2-data-x64-cn.vhd.gz'
+  SYSMIRROR15='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2012r2x64/guajibao/guajibao-winsrv2012r2-data-x64-cn.vhd.gz'
   SYSMIRROR16='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/new/Disk_Windows_Server_2008R2_DataCenter_CN_v3.27.vhd.gz'
   SYSMIRROR17='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2008x64/lite/winsrv2008r2-data-sp1-x64-cn.vhd.gz'
   SYSMIRROR18='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/new/Disk_Windows_Server_2003_DataCenter_CN_v7.1.vhd.gz'
   SYSMIRROR19='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2003/10G/WinSrv2003x86-Chinese-C10G.vhd.gz'
-  SYSMIRROR20='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win10/Win10_x64.vhd.gz'
-  SYSMIRROR21='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/Windows7x86-Chinese.vhd.gz'
-  SYSMIRROR22='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/win7-ent-sp1-x64-cn.vhd.gz'
-  SYSMIRROR23='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/win7-ent-sp1-x64-cn-efi.vhd.gz'
+  SYSMIRROR20='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win10/guajibao/guajibao-win10-ent-ltsc-2021-x64-cn.vhd.gz'
+  SYSMIRROR21='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/guajibao/guajibao-win7-sp1-ent-x86-cn.vhd.gz'
+  SYSMIRROR22='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/guajibao/guajibao-win7-sp1-ent-x64-cn.vhd.gz'
+  SYSMIRROR23='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/guajibao/guajibao-win7-sp1-ent-x64-cn-efi.vhd.gz'
   SYSMIRROR24='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2008x64/lite/winsrv2008r2-data-sp1-x64-cn-efi.vhd.gz'
-  SYSMIRROR25='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2012r2x64/lite/winsrv2012r2-data-x64-cn-efi.vhd.gz'
+  SYSMIRROR25='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2012r2x64/guajibao/guajibao-winsrv2012r2-data-x64-cn-efi.vhd.gz'
 
   if [[ "$isCN" == '1' ]];then
     sed -i 's#http://disk.29296819.xyz/92shidai.com/dd/img/wget_udeb_amd64.tar.gz#https://raw.githubusercontent.com/fcurrk/reinstall/master/wget_udeb_amd64.tar.gz#' /tmp/Core_Install.sh
@@ -186,21 +186,21 @@ function Start() {
     UMIRROR="--mirror http://mirrors.aliyun.com/ubuntu/"
     SYSMIRROR1='http://disk.29296819.xyz/92shidai.com/dd/os/veip007/CentOS-7.img.gz'
     SYSMIRROR2='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/CentOS_7.X_NetInstallation_Final.vhd.gz'
-    SYSMIRROR3='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/CentOS_8.X_NetInstallation.vhd.gz'
+    SYSMIRROR3='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/CentOS_8.X_NetInstallation_Stable_v4.2.vhd.gz'
     SYSMIRROR12='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/new/Disk_Windows_Server_2019_DataCenter_CN_v5.1.vhd.gz'
     SYSMIRROR13='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/new/Disk_Windows_Server_2016_DataCenter_CN_v4.12.vhd.gz'
     SYSMIRROR14='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/new/Disk_Windows_Server_2012R2_DataCenter_CN_v4.29.vhd.gz'
-    SYSMIRROR15='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2012r2x64/lite/winsrv2012r2-data-x64-cn.vhd.gz'
+    SYSMIRROR15='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2012r2x64/guajibao/guajibao-winsrv2012r2-data-x64-cn.vhd.gz'
     SYSMIRROR16='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/new/Disk_Windows_Server_2008R2_DataCenter_CN_v3.27.vhd.gz'
     SYSMIRROR17='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2008x64/lite/winsrv2008r2-data-sp1-x64-cn.vhd.gz'
     SYSMIRROR18='http://disk.29296819.xyz/92shidai.com/dd/os/cxthhhhh/new/Disk_Windows_Server_2003_DataCenter_CN_v7.1.vhd.gz'
     SYSMIRROR19='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2003/10G/WinSrv2003x86-Chinese-C10G.vhd.gz'
-    SYSMIRROR20='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win10/Win10_x64.vhd.gz'
-    SYSMIRROR21='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/Windows7x86-Chinese.vhd.gz'
-    SYSMIRROR22='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/win7-ent-sp1-x64-cn.vhd.gz'
-    SYSMIRROR23='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/win7-ent-sp1-x64-cn-efi.vhd.gz'
+    SYSMIRROR20='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win10/guajibao/guajibao-win10-ent-ltsc-2021-x64-cn.vhd.gz'
+    SYSMIRROR21='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/guajibao/guajibao-win7-sp1-ent-x86-cn.vhd.gz'
+    SYSMIRROR22='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/guajibao/guajibao-win7-sp1-ent-x64-cn.vhd.gz'
+    SYSMIRROR23='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/Win7/guajibao/guajibao-win7-sp1-ent-x64-cn-efi.vhd.gz'
     SYSMIRROR24='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2008x64/lite/winsrv2008r2-data-sp1-x64-cn-efi.vhd.gz'
-    SYSMIRROR25='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2012r2x64/lite/winsrv2012r2-data-x64-cn-efi.vhd.gz'
+    SYSMIRROR25='http://disk.29296819.xyz/92shidai.com/dd/os/laosiji/WinSrv2012r2x64/guajibao/guajibao-winsrv2012r2-data-x64-cn-efi.vhd.gz'
 
   fi
 
@@ -254,12 +254,12 @@ function Start() {
     17) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR17 $DMIRROR ;;
     18) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR18 $DMIRROR ;;
     19) echo -e "\nPassword: WinSrv2003x86-Chinese\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR19 $DMIRROR ;;
-    20) echo -e "\nPassword: www.nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR20 $DMIRROR ;;
-    21) echo -e "\nPassword: Windows7x86-Chinese\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR21 $DMIRROR ;;
-    22) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR22 $DMIRROR ;;   
-    23) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR23 $DMIRROR ;;   
-    24) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR24 $DMIRROR ;;   
-    25) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR25 $DMIRROR ;;   
+    20) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR20 $DMIRROR ;;
+    21) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR21 $DMIRROR ;;
+    22) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR22 $DMIRROR ;;
+    23) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR23 $DMIRROR ;;
+    24) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR24 $DMIRROR ;;
+    25) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/Core_Install.sh $NETSTR -dd $SYSMIRROR25 $DMIRROR ;;
     99)
       echo -e "\n"
       read -r -p "Custom image URL: " imgURL
