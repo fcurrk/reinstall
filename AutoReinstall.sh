@@ -131,7 +131,7 @@ function Start() {
   CopyRight
   
   isCN='0'
-  geoip=$(wget --no-check-certificate -qO- https://api.ip.sb/geoip | grep "\"country_code\":\"CN\"")
+  geoip=$(wget --no-check-certificate -qO- https://api.myip.com | grep "\"country\":\"China\"")
   if [[ "$geoip" != "" ]];then
     isCN='1'
   fi
