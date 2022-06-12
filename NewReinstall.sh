@@ -243,12 +243,18 @@ function Start() {
        case $input in
          [yY][eE][sS]|[yY])
 	 echo -e "\n"
-         read -r -p "Press input Password(More than 8 characters and numbers. eg: Minijer123): " mypasswd
-	 if [[ "$mypasswd" =~ ^[a-zA-Z0-9]{8,}$ ]]; then
-            MYPASSWORD="-p ${mypasswd}"
-         else
-	    clear; echo "The password must exceed 8 characters and numbers!"; exit 1
-         fi
+	 echo -e "The password must start with character. It can be character numbers and .!$@#&% . "
+	 echo -e "Password length limit 8-16 bits. eg: Minijer@520"
+         read -r -p "Press input Password: " mypasswd
+	 until [[ "$mypasswd" =~ ^[a-zA-Z][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
+           do
+           echo -e "\n"
+           echo -e "The password does not meet the requirements. Please enter the password again."
+	   echo -e "The password must start with character. It can be character numbers and .!$@#&% . "
+	   echo -e "Password length limit 8-16 bits. eg: Minijer@520"
+           read -r -p "Press input Password: " mypasswd
+         done
+         MYPASSWORD="-p ${mypasswd}"
          echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -c 6.10 -v 64 $MYPASSWORD $NETSTR $CMIRROR;;
         *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -c 6.10 -v 64 $NETSTR $CMIRROR;;
       esac
@@ -259,12 +265,18 @@ function Start() {
        case $input in
          [yY][eE][sS]|[yY])
 	 echo -e "\n"
-         read -r -p "Press input Password(More than 8 characters and numbers. eg: Minijer123): " mypasswd
-	 if [[ "$mypasswd" =~ ^[a-zA-Z0-9]{8,}$ ]]; then
-            MYPASSWORD="-p ${mypasswd}"
-         else
-	    clear; echo "The password must exceed 8 characters and numbers!"; exit 1
-         fi
+	 echo -e "The password must start with character. It can be character numbers and .!$@#&% . "
+	 echo -e "Password length limit 8-16 bits. eg: Minijer@520"
+         read -r -p "Press input Password: " mypasswd
+	 until [[ "$mypasswd" =~ ^[a-zA-Z][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
+           do
+           echo -e "\n"
+           echo -e "The password does not meet the requirements. Please enter the password again."
+	   echo -e "The password must start with character. It can be character numbers and .!$@#&% . "
+	   echo -e "Password length limit 8-16 bits. eg: Minijer@520"
+           read -r -p "Press input Password: " mypasswd
+         done
+         MYPASSWORD="-p ${mypasswd}"
          echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 11 -v 64 $MYPASSWORD $NETSTR $DMIRROR;;
         *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 11 -v 64 $NETSTR $DMIRROR;;
       esac
@@ -275,12 +287,18 @@ function Start() {
        case $input in
          [yY][eE][sS]|[yY])
 	 echo -e "\n"
-         read -r -p "Press input Password(More than 8 characters and numbers. eg: Minijer123): " mypasswd
-	 if [[ "$mypasswd" =~ ^[a-zA-Z0-9]{8,}$ ]]; then
-            MYPASSWORD="-p ${mypasswd}"
-         else
-	    clear; echo "The password must exceed 8 characters and numbers!"; exit 1
-         fi
+	 echo -e "The password must start with character. It can be character numbers and .!$@#&% . "
+	 echo -e "Password length limit 8-16 bits. eg: Minijer@520"
+         read -r -p "Press input Password: " mypasswd
+	 until [[ "$mypasswd" =~ ^[a-zA-Z][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
+           do
+           echo -e "\n"
+           echo -e "The password does not meet the requirements. Please enter the password again."
+	   echo -e "The password must start with character. It can be character numbers and .!$@#&% . "
+	   echo -e "Password length limit 8-16 bits. eg: Minijer@520"
+           read -r -p "Press input Password: " mypasswd
+         done
+         MYPASSWORD="-p ${mypasswd}"
          echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 10 -v 64 $MYPASSWORD $NETSTR $DMIRROR;;
         *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 10 -v 64 $NETSTR $DMIRROR;;
       esac
@@ -291,12 +309,18 @@ function Start() {
        case $input in
          [yY][eE][sS]|[yY])
 	 echo -e "\n"
-         read -r -p "Press input Password(More than 8 characters and numbers. eg: Minijer123): " mypasswd
-	 if [[ "$mypasswd" =~ ^[a-zA-Z0-9]{8,}$ ]]; then
-            MYPASSWORD="-p ${mypasswd}"
-         else
-	    clear; echo "The password must exceed 8 characters and numbers!"; exit 1
-         fi
+	 echo -e "The password must start with character. It can be character numbers and .!$@#&% . "
+	 echo -e "Password length limit 8-16 bits. eg: Minijer@520"
+         read -r -p "Press input Password: " mypasswd
+	 until [[ "$mypasswd" =~ ^[a-zA-Z][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
+           do
+           echo -e "\n"
+           echo -e "The password does not meet the requirements. Please enter the password again."
+	   echo -e "The password must start with character. It can be character numbers and .!$@#&% . "
+	   echo -e "Password length limit 8-16 bits. eg: Minijer@520"
+           read -r -p "Press input Password: " mypasswd
+         done
+         MYPASSWORD="-p ${mypasswd}"
          echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 9 -v 64 $MYPASSWORD $NETSTR $DMIRROR;;
         *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 9 -v 64 $NETSTR $DMIRROR;;
       esac
@@ -307,12 +331,18 @@ function Start() {
        case $input in
          [yY][eE][sS]|[yY])
 	 echo -e "\n"
-         read -r -p "Press input Password(More than 8 characters and numbers. eg: Minijer123): " mypasswd
-	 if [[ "$mypasswd" =~ ^[a-zA-Z0-9]{8,}$ ]]; then
-            MYPASSWORD="-p ${mypasswd}"
-         else
-	    clear; echo "The password must exceed 8 characters and numbers!"; exit 1
-         fi
+	 echo -e "The password must start with character. It can be character numbers and .!$@#&% . "
+	 echo -e "Password length limit 8-16 bits. eg: Minijer@520"
+         read -r -p "Press input Password: " mypasswd
+	 until [[ "$mypasswd" =~ ^[a-zA-Z][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
+           do
+           echo -e "\n"
+           echo -e "The password does not meet the requirements. Please enter the password again."
+	   echo -e "The password must start with character. It can be character numbers and .!$@#&% . "
+	   echo -e "Password length limit 8-16 bits. eg: Minijer@520"
+           read -r -p "Press input Password: " mypasswd
+         done
+         MYPASSWORD="-p ${mypasswd}"
          echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 8 -v 64 $MYPASSWORD $NETSTR $DMIRROR;;
         *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 8 -v 64 $NETSTR $DMIRROR;;
       esac
@@ -323,12 +353,18 @@ function Start() {
        case $input in
          [yY][eE][sS]|[yY])
 	 echo -e "\n"
-         read -r -p "Press input Password(More than 8 characters and numbers. eg: Minijer123): " mypasswd
-	 if [[ "$mypasswd" =~ ^[a-zA-Z0-9]{8,}$ ]]; then
-            MYPASSWORD="-p ${mypasswd}"
-         else
-	    clear; echo "The password must exceed 8 characters and numbers!"; exit 1
-         fi
+	 echo -e "The password must start with character. It can be character numbers and .!$@#&% . "
+	 echo -e "Password length limit 8-16 bits. eg: Minijer@520"
+         read -r -p "Press input Password: " mypasswd
+	 until [[ "$mypasswd" =~ ^[a-zA-Z][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
+           do
+           echo -e "\n"
+           echo -e "The password does not meet the requirements. Please enter the password again."
+	   echo -e "The password must start with character. It can be character numbers and .!$@#&% . "
+	   echo -e "Password length limit 8-16 bits. eg: Minijer@520"
+           read -r -p "Press input Password: " mypasswd
+         done
+         MYPASSWORD="-p ${mypasswd}"
          echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 20.04 -v 64 $MYPASSWORD $NETSTR $UMIRROR;;
         *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 20.04 -v 64 $NETSTR $UMIRROR;;
       esac
@@ -339,12 +375,18 @@ function Start() {
        case $input in
          [yY][eE][sS]|[yY])
 	 echo -e "\n"
-         read -r -p "Press input Password(More than 8 characters and numbers. eg: Minijer123): " mypasswd
-	 if [[ "$mypasswd" =~ ^[a-zA-Z0-9]{8,}$ ]]; then
-            MYPASSWORD="-p ${mypasswd}"
-         else
-	    clear; echo "The password must exceed 8 characters and numbers!"; exit 1
-         fi
+	 echo -e "The password must start with character. It can be character numbers and .!$@#&% . "
+	 echo -e "Password length limit 8-16 bits. eg: Minijer@520"
+         read -r -p "Press input Password: " mypasswd
+	 until [[ "$mypasswd" =~ ^[a-zA-Z][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
+           do
+           echo -e "\n"
+           echo -e "The password does not meet the requirements. Please enter the password again."
+	   echo -e "The password must start with character. It can be character numbers and .!$@#&% . "
+	   echo -e "Password length limit 8-16 bits. eg: Minijer@520"
+           read -r -p "Press input Password: " mypasswd
+         done
+         MYPASSWORD="-p ${mypasswd}"
          echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 18.04 -v 64 $MYPASSWORD $NETSTR $UMIRROR;;
         *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 18.04 -v 64 $NETSTR $UMIRROR;;
       esac
@@ -355,12 +397,18 @@ function Start() {
        case $input in
          [yY][eE][sS]|[yY])
 	 echo -e "\n"
-         read -r -p "Press input Password(More than 8 characters and numbers. eg: Minijer123): " mypasswd
-	 if [[ "$mypasswd" =~ ^[a-zA-Z0-9]{8,}$ ]]; then
-            MYPASSWORD="-p ${mypasswd}"
-         else
-	    clear; echo "The password must exceed 8 characters and numbers!"; exit 1
-         fi
+	 echo -e "The password must start with character. It can be character numbers and .!$@#&% . "
+	 echo -e "Password length limit 8-16 bits. eg: Minijer@520"
+         read -r -p "Press input Password: " mypasswd
+	 until [[ "$mypasswd" =~ ^[a-zA-Z][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
+           do
+           echo -e "\n"
+           echo -e "The password does not meet the requirements. Please enter the password again."
+	   echo -e "The password must start with character. It can be character numbers and .!$@#&% . "
+	   echo -e "Password length limit 8-16 bits. eg: Minijer@520"
+           read -r -p "Press input Password: " mypasswd
+         done
+         MYPASSWORD="-p ${mypasswd}"
          echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 16.04 -v 64 $MYPASSWORD $NETSTR $UMIRROR;;
         *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 16.04 -v 64 $NETSTR $UMIRROR;;
       esac
