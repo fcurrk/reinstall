@@ -242,6 +242,7 @@ function Start() {
        read -r -p "Custom Password? [Y/n]: " input
        case $input in
          [yY][eE][sS]|[yY])
+	 echo -e "\n"
 	 echo -e "The password must start with character or numbers."
 	 echo -e "It can be character numbers and .!$@#&%"
 	 echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
@@ -265,6 +266,7 @@ function Start() {
        read -r -p "Custom Password? [Y/n]: " input
        case $input in
          [yY][eE][sS]|[yY])
+	 echo -e "\n"
 	 echo -e "The password must start with character or numbers."
 	 echo -e "It can be character numbers and .!$@#&%"
 	 echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
@@ -288,6 +290,7 @@ function Start() {
        read -r -p "Custom Password? [Y/n]: " input
        case $input in
          [yY][eE][sS]|[yY])
+	 echo -e "\n"
 	 echo -e "The password must start with character or numbers."
 	 echo -e "It can be character numbers and .!$@#&%"
 	 echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
@@ -311,6 +314,7 @@ function Start() {
        read -r -p "Custom Password? [Y/n]: " input
        case $input in
          [yY][eE][sS]|[yY])
+	 echo -e "\n"
 	 echo -e "The password must start with character or numbers."
 	 echo -e "It can be character numbers and .!$@#&%"
 	 echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
@@ -334,6 +338,7 @@ function Start() {
        read -r -p "Custom Password? [Y/n]: " input
        case $input in
          [yY][eE][sS]|[yY])
+	 echo -e "\n"
 	 echo -e "The password must start with character or numbers."
 	 echo -e "It can be character numbers and .!$@#&%"
 	 echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
@@ -357,6 +362,7 @@ function Start() {
        read -r -p "Custom Password? [Y/n]: " input
        case $input in
          [yY][eE][sS]|[yY])
+	 echo -e "\n"
 	 echo -e "The password must start with character or numbers."
 	 echo -e "It can be character numbers and .!$@#&%"
 	 echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
@@ -380,6 +386,7 @@ function Start() {
        read -r -p "Custom Password? [Y/n]: " input
        case $input in
          [yY][eE][sS]|[yY])
+	 echo -e "\n"
 	 echo -e "The password must start with character or numbers."
 	 echo -e "It can be character numbers and .!$@#&%"
 	 echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
@@ -403,6 +410,7 @@ function Start() {
        read -r -p "Custom Password? [Y/n]: " input
        case $input in
          [yY][eE][sS]|[yY])
+	 echo -e "\n"
 	 echo -e "The password must start with character or numbers."
 	 echo -e "It can be character numbers and .!$@#&%"
 	 echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
