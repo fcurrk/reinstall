@@ -243,7 +243,7 @@ function Start() {
        case $input in
          [yY][eE][sS]|[yY])
 	 echo -e "The password must start with character or numbers."
-	 echo -e "It can be character numbers and .!$@#&% ."
+	 echo -e "It can be character numbers and .!$@#&%"
 	 echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
          read -r -p "Press input Password: " mypasswd
 	 until [[ "$mypasswd" =~ ^[a-zA-Z0-9][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
@@ -251,7 +251,7 @@ function Start() {
            echo -e "\n"
            echo -e "The password does not meet the requirements."
 	   echo -e "The password must start with character or numbers."
-	   echo -e "It can be character numbers and .!$@#&% ."
+	   echo -e "It can be character numbers and .!$@#&%"
 	   echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
            read -r -p "Please input the password again: " mypasswd
          done
@@ -266,7 +266,7 @@ function Start() {
        case $input in
          [yY][eE][sS]|[yY])
 	 echo -e "The password must start with character or numbers."
-	 echo -e "It can be character numbers and .!$@#&% ."
+	 echo -e "It can be character numbers and .!$@#&%"
 	 echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
          read -r -p "Press input Password: " mypasswd
 	 until [[ "$mypasswd" =~ ^[a-zA-Z0-9][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
@@ -274,7 +274,7 @@ function Start() {
            echo -e "\n"
            echo -e "The password does not meet the requirements."
 	   echo -e "The password must start with character or numbers."
-	   echo -e "It can be character numbers and .!$@#&% ."
+	   echo -e "It can be character numbers and .!$@#&%"
 	   echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
            read -r -p "Please input the password again: " mypasswd
          done
@@ -289,7 +289,7 @@ function Start() {
        case $input in
          [yY][eE][sS]|[yY])
 	 echo -e "The password must start with character or numbers."
-	 echo -e "It can be character numbers and .!$@#&% ."
+	 echo -e "It can be character numbers and .!$@#&%"
 	 echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
          read -r -p "Press input Password: " mypasswd
 	 until [[ "$mypasswd" =~ ^[a-zA-Z0-9][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
@@ -297,7 +297,7 @@ function Start() {
            echo -e "\n"
            echo -e "The password does not meet the requirements."
 	   echo -e "The password must start with character or numbers."
-	   echo -e "It can be character numbers and .!$@#&% ."
+	   echo -e "It can be character numbers and .!$@#&%"
 	   echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
            read -r -p "Please input the password again: " mypasswd
          done
@@ -312,7 +312,7 @@ function Start() {
        case $input in
          [yY][eE][sS]|[yY])
 	 echo -e "The password must start with character or numbers."
-	 echo -e "It can be character numbers and .!$@#&% ."
+	 echo -e "It can be character numbers and .!$@#&%"
 	 echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
          read -r -p "Press input Password: " mypasswd
 	 until [[ "$mypasswd" =~ ^[a-zA-Z0-9][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
@@ -320,7 +320,7 @@ function Start() {
            echo -e "\n"
            echo -e "The password does not meet the requirements."
 	   echo -e "The password must start with character or numbers."
-	   echo -e "It can be character numbers and .!$@#&% ."
+	   echo -e "It can be character numbers and .!$@#&%"
 	   echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
            read -r -p "Please input the password again: " mypasswd
          done
@@ -335,7 +335,7 @@ function Start() {
        case $input in
          [yY][eE][sS]|[yY])
 	 echo -e "The password must start with character or numbers."
-	 echo -e "It can be character numbers and .!$@#&% ."
+	 echo -e "It can be character numbers and .!$@#&%"
 	 echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
          read -r -p "Press input Password: " mypasswd
 	 until [[ "$mypasswd" =~ ^[a-zA-Z0-9][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
@@ -343,7 +343,7 @@ function Start() {
            echo -e "\n"
            echo -e "The password does not meet the requirements."
 	   echo -e "The password must start with character or numbers."
-	   echo -e "It can be character numbers and .!$@#&% ."
+	   echo -e "It can be character numbers and .!$@#&%"
 	   echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
            read -r -p "Please input the password again: " mypasswd
          done
@@ -358,7 +358,7 @@ function Start() {
        case $input in
          [yY][eE][sS]|[yY])
 	 echo -e "The password must start with character or numbers."
-	 echo -e "It can be character numbers and .!$@#&% ."
+	 echo -e "It can be character numbers and .!$@#&%"
 	 echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
          read -r -p "Press input Password: " mypasswd
 	 until [[ "$mypasswd" =~ ^[a-zA-Z0-9][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
@@ -366,7 +366,7 @@ function Start() {
            echo -e "\n"
            echo -e "The password does not meet the requirements."
 	   echo -e "The password must start with character or numbers."
-	   echo -e "It can be character numbers and .!$@#&% ."
+	   echo -e "It can be character numbers and .!$@#&%"
 	   echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
            read -r -p "Please input the password again: " mypasswd
          done
@@ -381,7 +381,7 @@ function Start() {
        case $input in
          [yY][eE][sS]|[yY])
 	 echo -e "The password must start with character or numbers."
-	 echo -e "It can be character numbers and .!$@#&% ."
+	 echo -e "It can be character numbers and .!$@#&%"
 	 echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
          read -r -p "Press input Password: " mypasswd
 	 until [[ "$mypasswd" =~ ^[a-zA-Z0-9][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
@@ -389,7 +389,7 @@ function Start() {
            echo -e "\n"
            echo -e "The password does not meet the requirements."
 	   echo -e "The password must start with character or numbers."
-	   echo -e "It can be character numbers and .!$@#&% ."
+	   echo -e "It can be character numbers and .!$@#&%"
 	   echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
            read -r -p "Please input the password again: " mypasswd
          done
@@ -404,7 +404,7 @@ function Start() {
        case $input in
          [yY][eE][sS]|[yY])
 	 echo -e "The password must start with character or numbers."
-	 echo -e "It can be character numbers and .!$@#&% ."
+	 echo -e "It can be character numbers and .!$@#&%"
 	 echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
          read -r -p "Press input Password: " mypasswd
 	 until [[ "$mypasswd" =~ ^[a-zA-Z0-9][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
@@ -412,7 +412,7 @@ function Start() {
            echo -e "\n"
            echo -e "The password does not meet the requirements."
 	   echo -e "The password must start with character or numbers."
-	   echo -e "It can be character numbers and .!$@#&% ."
+	   echo -e "It can be character numbers and .!$@#&%"
 	   echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
            read -r -p "Please input the password again: " mypasswd
          done
