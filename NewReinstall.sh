@@ -243,16 +243,18 @@ function Start() {
        case $input in
          [yY][eE][sS]|[yY])
 	 echo -e "\n"
-	 echo -e "The password must start with character or numbers. It can be character numbers and .!$@#&% . "
+	 echo -e "The password must start with character or numbers."
+	 echo -e "It can be character numbers and .!$@#&% ."
 	 echo -e "Password length limit 8-16 bits. eg: Minijer@520"
          read -r -p "Press input Password: " mypasswd
 	 until [[ "$mypasswd" =~ ^[a-zA-Z0-9][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
            do
            echo -e "\n"
-           echo -e "The password does not meet the requirements. Please enter the password again."
-	   echo -e "The password must start with character or numbers. It can be character numbers and .!$@#&% . "
+           echo -e "The password does not meet the requirements."
+	   echo -e "The password must start with character or numbers."
+	   echo -e "It can be character numbers and .!$@#&% ."
 	   echo -e "Password length limit 8-16 bits. eg: Minijer@520"
-           read -r -p "Press input Password: " mypasswd
+           read -r -p "Please input the password again: " mypasswd
          done
          MYPASSWORD="-p ${mypasswd}"
          echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -c 6.10 -v 64 $MYPASSWORD $NETSTR $CMIRROR;;
@@ -265,16 +267,18 @@ function Start() {
        case $input in
          [yY][eE][sS]|[yY])
 	 echo -e "\n"
-	 echo -e "The password must start with character or numbers. It can be character numbers and .!$@#&% . "
+	 echo -e "The password must start with character or numbers."
+	 echo -e "It can be character numbers and .!$@#&% ."
 	 echo -e "Password length limit 8-16 bits. eg: Minijer@520"
          read -r -p "Press input Password: " mypasswd
 	 until [[ "$mypasswd" =~ ^[a-zA-Z0-9][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
            do
            echo -e "\n"
-           echo -e "The password does not meet the requirements. Please enter the password again."
-	   echo -e "The password must start with character or numbers. It can be character numbers and .!$@#&% . "
+           echo -e "The password does not meet the requirements."
+	   echo -e "The password must start with character or numbers."
+	   echo -e "It can be character numbers and .!$@#&% ."
 	   echo -e "Password length limit 8-16 bits. eg: Minijer@520"
-           read -r -p "Press input Password: " mypasswd
+           read -r -p "Please input the password again: " mypasswd
          done
          MYPASSWORD="-p ${mypasswd}"
          echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 11 -v 64 $MYPASSWORD $NETSTR $DMIRROR;;
@@ -287,16 +291,18 @@ function Start() {
        case $input in
          [yY][eE][sS]|[yY])
 	 echo -e "\n"
-	 echo -e "The password must start with character or numbers. It can be character numbers and .!$@#&% . "
+	 echo -e "The password must start with character or numbers."
+	 echo -e "It can be character numbers and .!$@#&% ."
 	 echo -e "Password length limit 8-16 bits. eg: Minijer@520"
          read -r -p "Press input Password: " mypasswd
 	 until [[ "$mypasswd" =~ ^[a-zA-Z0-9][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
            do
            echo -e "\n"
-           echo -e "The password does not meet the requirements. Please enter the password again."
-	   echo -e "The password must start with character or numbers. It can be character numbers and .!$@#&% . "
+           echo -e "The password does not meet the requirements."
+	   echo -e "The password must start with character or numbers."
+	   echo -e "It can be character numbers and .!$@#&% ."
 	   echo -e "Password length limit 8-16 bits. eg: Minijer@520"
-           read -r -p "Press input Password: " mypasswd
+           read -r -p "Please input the password again: " mypasswd
          done
          MYPASSWORD="-p ${mypasswd}"
          echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 10 -v 64 $MYPASSWORD $NETSTR $DMIRROR;;
@@ -309,16 +315,18 @@ function Start() {
        case $input in
          [yY][eE][sS]|[yY])
 	 echo -e "\n"
-	 echo -e "The password must start with character or numbers. It can be character numbers and .!$@#&% . "
+	 echo -e "The password must start with character or numbers."
+	 echo -e "It can be character numbers and .!$@#&% ."
 	 echo -e "Password length limit 8-16 bits. eg: Minijer@520"
          read -r -p "Press input Password: " mypasswd
 	 until [[ "$mypasswd" =~ ^[a-zA-Z0-9][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
            do
            echo -e "\n"
-           echo -e "The password does not meet the requirements. Please enter the password again."
-	   echo -e "The password must start with character or numbers. It can be character numbers and .!$@#&% . "
+           echo -e "The password does not meet the requirements."
+	   echo -e "The password must start with character or numbers."
+	   echo -e "It can be character numbers and .!$@#&% ."
 	   echo -e "Password length limit 8-16 bits. eg: Minijer@520"
-           read -r -p "Press input Password: " mypasswd
+           read -r -p "Please input the password again: " mypasswd
          done
          MYPASSWORD="-p ${mypasswd}"
          echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 9 -v 64 $MYPASSWORD $NETSTR $DMIRROR;;
@@ -331,16 +339,18 @@ function Start() {
        case $input in
          [yY][eE][sS]|[yY])
 	 echo -e "\n"
-	 echo -e "The password must start with character or numbers. It can be character numbers and .!$@#&% . "
+	 echo -e "The password must start with character or numbers."
+	 echo -e "It can be character numbers and .!$@#&% ."
 	 echo -e "Password length limit 8-16 bits. eg: Minijer@520"
          read -r -p "Press input Password: " mypasswd
 	 until [[ "$mypasswd" =~ ^[a-zA-Z0-9][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
            do
            echo -e "\n"
-           echo -e "The password does not meet the requirements. Please enter the password again."
-	   echo -e "The password must start with character or numbers. It can be character numbers and .!$@#&% . "
+           echo -e "The password does not meet the requirements."
+	   echo -e "The password must start with character or numbers."
+	   echo -e "It can be character numbers and .!$@#&% ."
 	   echo -e "Password length limit 8-16 bits. eg: Minijer@520"
-           read -r -p "Press input Password: " mypasswd
+           read -r -p "Please input the password again: " mypasswd
          done
          MYPASSWORD="-p ${mypasswd}"
          echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 8 -v 64 $MYPASSWORD $NETSTR $DMIRROR;;
@@ -353,16 +363,18 @@ function Start() {
        case $input in
          [yY][eE][sS]|[yY])
 	 echo -e "\n"
-	 echo -e "The password must start with character or numbers. It can be character numbers and .!$@#&% . "
+	 echo -e "The password must start with character or numbers."
+	 echo -e "It can be character numbers and .!$@#&% ."
 	 echo -e "Password length limit 8-16 bits. eg: Minijer@520"
          read -r -p "Press input Password: " mypasswd
 	 until [[ "$mypasswd" =~ ^[a-zA-Z0-9][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
            do
            echo -e "\n"
-           echo -e "The password does not meet the requirements. Please enter the password again."
-	   echo -e "The password must start with character or numbers. It can be character numbers and .!$@#&% . "
+           echo -e "The password does not meet the requirements."
+	   echo -e "The password must start with character or numbers."
+	   echo -e "It can be character numbers and .!$@#&% ."
 	   echo -e "Password length limit 8-16 bits. eg: Minijer@520"
-           read -r -p "Press input Password: " mypasswd
+           read -r -p "Please input the password again: " mypasswd
          done
          MYPASSWORD="-p ${mypasswd}"
          echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 20.04 -v 64 $MYPASSWORD $NETSTR $UMIRROR;;
@@ -375,16 +387,18 @@ function Start() {
        case $input in
          [yY][eE][sS]|[yY])
 	 echo -e "\n"
-	 echo -e "The password must start with character or numbers. It can be character numbers and .!$@#&% . "
+	 echo -e "The password must start with character or numbers."
+	 echo -e "It can be character numbers and .!$@#&% ."
 	 echo -e "Password length limit 8-16 bits. eg: Minijer@520"
          read -r -p "Press input Password: " mypasswd
 	 until [[ "$mypasswd" =~ ^[a-zA-Z0-9][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
            do
            echo -e "\n"
-           echo -e "The password does not meet the requirements. Please enter the password again."
-	   echo -e "The password must start with character or numbers. It can be character numbers and .!$@#&% . "
+           echo -e "The password does not meet the requirements."
+	   echo -e "The password must start with character or numbers."
+	   echo -e "It can be character numbers and .!$@#&% ."
 	   echo -e "Password length limit 8-16 bits. eg: Minijer@520"
-           read -r -p "Press input Password: " mypasswd
+           read -r -p "Please input the password again: " mypasswd
          done
          MYPASSWORD="-p ${mypasswd}"
          echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 18.04 -v 64 $MYPASSWORD $NETSTR $UMIRROR;;
@@ -397,16 +411,18 @@ function Start() {
        case $input in
          [yY][eE][sS]|[yY])
 	 echo -e "\n"
-	 echo -e "The password must start with character or numbers. It can be character numbers and .!$@#&% . "
+	 echo -e "The password must start with character or numbers."
+	 echo -e "It can be character numbers and .!$@#&% ."
 	 echo -e "Password length limit 8-16 bits. eg: Minijer@520"
          read -r -p "Press input Password: " mypasswd
 	 until [[ "$mypasswd" =~ ^[a-zA-Z0-9][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
            do
            echo -e "\n"
-           echo -e "The password does not meet the requirements. Please enter the password again."
-	   echo -e "The password must start with character or numbers. It can be character numbers and .!$@#&% . "
+           echo -e "The password does not meet the requirements."
+	   echo -e "The password must start with character or numbers."
+	   echo -e "It can be character numbers and .!$@#&% ."
 	   echo -e "Password length limit 8-16 bits. eg: Minijer@520"
-           read -r -p "Press input Password: " mypasswd
+           read -r -p "Please input the password again: " mypasswd
          done
          MYPASSWORD="-p ${mypasswd}"
          echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 16.04 -v 64 $MYPASSWORD $NETSTR $UMIRROR;;
