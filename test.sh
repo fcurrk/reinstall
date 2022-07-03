@@ -259,7 +259,6 @@ function Start() {
          MYPASSWORD="-p ${mypasswd}";;
 	 *) MYPASSWORD="";;
 	 esac
-       echo -e "\n"
        read -r -p "Custom SSH Port? [Y/n]: " input
        case $input in
          [yY][eE][sS]|[yY])
@@ -277,7 +276,7 @@ function Start() {
          MYSSHPORT="-port ${mysshPort}";;
 	 *) MYSSHPORT="";;
 	 esac
-
+         echo -e "\nPlease check the custom data£º"
 	 if [ "$MYPASSWORD" == '' ]; then
          echo -e "\nPassword: Minijer.com"
 	 else
