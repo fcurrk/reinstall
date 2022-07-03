@@ -1,4 +1,4 @@
-﻿#!/bin/sh
+#!/bin/sh
 
 if [[ $EUID -ne 0 ]]; then
     clear
