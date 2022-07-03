@@ -1,4 +1,4 @@
-#!/bin/sh
+ï»¿#!/bin/sh
 
 if [[ $EUID -ne 0 ]]; then
     clear
@@ -276,7 +276,7 @@ function Start() {
          MYSSHPORT="-port ${mysshPort}";;
 	 *) MYSSHPORT="";;
 	 esac
-         echo -e "\nPlease check the custom data£º"
+         echo -e "\nPlease check the custom data:"
 	 if [ "$MYPASSWORD" == '' ]; then
          echo -e "\nPassword: Minijer.com"
 	 else
