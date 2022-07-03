@@ -267,7 +267,7 @@ function Start() {
 	 echo -e "The Port must be numeric."
 	 echo -e "The valid range is 1-65535. eg: 19100"
          read -r -p "Press input Port: " mysshPort
-	 until [[ "$mysshPort" =~ ^([0-9]|[1-9]\d{1,3}|[1-5]\d{4}|6[0-4]\d{4}|65[0-4]\d{2}|655[0-2]\d|6553[0-5])$ ]]
+	 until [[ "$mysshPort" =~ ^(6553[0-5]|655[0-2]\d|65[0-4]\d{2}|6[0-4]\d{3}|[0-5]\d{4}|[1-9]\d{0,3})$ ]]
            do
            echo -e "\n"
 	   echo -e "The Port must be numeric."
@@ -279,9 +279,9 @@ function Start() {
 	 esac
 
 	 if [ "$MYPASSWORD" == '' ]; then
-         echo -e "\nPassword: Minijer.com\n"
+         echo -e "\nPassword: Minijer.com"
 	 else
-         echo -e "\nPassword: $mypasswd\n"
+         echo -e "\nPassword: $mypasswd"
 	 fi
 	 if [ "$MYSSHPORT" == '' ]; then
          echo -e "\nSSH Port: 22\n"
