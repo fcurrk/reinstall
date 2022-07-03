@@ -256,11 +256,38 @@ function Start() {
 	   echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
            read -r -p "Please input the password again: " mypasswd
          done
-         MYPASSWORD="-p ${mypasswd}"
-         echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -c 6.10 -v 64 $MYPASSWORD $NETSTR $CMIRROR;;
-        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -c 6.10 -v 64 $NETSTR $CMIRROR;;
-      esac
-      ;;      
+         MYPASSWORD="-p ${mypasswd}";;
+	 *) MYPASSWORD="";;
+	 esac
+       read -r -p "Custom SSH Port? [Y/n]: " input
+       case $input in
+         [yY][eE][sS]|[yY])
+	 echo -e "\n"
+	 echo -e "The Port must be numeric."
+	 echo -e "The valid range is 1-65535. eg: 19100"
+         read -r -p "Press input Port: " mysshPort
+	 until [[ $mysshPort =~ ^[0-9]{1,5}$ ]] && [[ $mysshPort -lt 65535 ]] && [[ $mysshPort -gt 0 ]]
+           do
+           echo -e "\n"
+	   echo -e "The Port must be numeric."
+	   echo -e "The valid range is 1-65535. eg: 19100"
+           read -r -p "Please input the Port again: " mysshPort
+         done
+         MYSSHPORT="-port ${mysshPort}";;
+	 *) MYSSHPORT="";;
+	 esac
+         echo -e "\nPlease check the custom data:"
+	 if [ "$MYPASSWORD" == '' ]; then
+         echo -e "\nPassword: Minijer.com"
+	 else
+         echo -e "\nPassword: $mypasswd"
+	 fi
+	 if [ "$MYSSHPORT" == '' ]; then
+         echo -e "\nSSH Port: 22\n"
+	 else
+         echo -e "\nSSH Port: $mysshPort\n"
+	 fi	 
+	 read -s -n1 -p "Press any key to continue..."; bash /tmp/InstallNET.sh -c 6.10 -v 64 $MYPASSWORD $MYSSHPORT $NETSTR $CMIRROR ;;
     5) 
        echo -e "\n"
        read -r -p "Custom Password? [Y/n]: " input
@@ -280,11 +307,38 @@ function Start() {
 	   echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
            read -r -p "Please input the password again: " mypasswd
          done
-         MYPASSWORD="-p ${mypasswd}"
-         echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 11 -v 64 $MYPASSWORD $NETSTR $DMIRROR;;
-        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 11 -v 64 $NETSTR $DMIRROR;;
-      esac
-      ;; 
+         MYPASSWORD="-p ${mypasswd}";;
+	 *) MYPASSWORD="";;
+	 esac
+       read -r -p "Custom SSH Port? [Y/n]: " input
+       case $input in
+         [yY][eE][sS]|[yY])
+	 echo -e "\n"
+	 echo -e "The Port must be numeric."
+	 echo -e "The valid range is 1-65535. eg: 19100"
+         read -r -p "Press input Port: " mysshPort
+	 until [[ $mysshPort =~ ^[0-9]{1,5}$ ]] && [[ $mysshPort -lt 65535 ]] && [[ $mysshPort -gt 0 ]]
+           do
+           echo -e "\n"
+	   echo -e "The Port must be numeric."
+	   echo -e "The valid range is 1-65535. eg: 19100"
+           read -r -p "Please input the Port again: " mysshPort
+         done
+         MYSSHPORT="-port ${mysshPort}";;
+	 *) MYSSHPORT="";;
+	 esac
+         echo -e "\nPlease check the custom data:"
+	 if [ "$MYPASSWORD" == '' ]; then
+         echo -e "\nPassword: Minijer.com"
+	 else
+         echo -e "\nPassword: $mypasswd"
+	 fi
+	 if [ "$MYSSHPORT" == '' ]; then
+         echo -e "\nSSH Port: 22\n"
+	 else
+         echo -e "\nSSH Port: $mysshPort\n"
+	 fi	 
+	 read -s -n1 -p "Press any key to continue..."; bash /tmp/InstallNET.sh -d 11 -v 64 $MYPASSWORD $MYSSHPORT $NETSTR $DMIRROR ;;
     6) 
        echo -e "\n"
        read -r -p "Custom Password? [Y/n]: " input
@@ -304,11 +358,38 @@ function Start() {
 	   echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
            read -r -p "Please input the password again: " mypasswd
          done
-         MYPASSWORD="-p ${mypasswd}"
-         echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 10 -v 64 $MYPASSWORD $NETSTR $DMIRROR;;
-        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 10 -v 64 $NETSTR $DMIRROR;;
-      esac
-      ;; 
+         MYPASSWORD="-p ${mypasswd}";;
+	 *) MYPASSWORD="";;
+	 esac
+       read -r -p "Custom SSH Port? [Y/n]: " input
+       case $input in
+         [yY][eE][sS]|[yY])
+	 echo -e "\n"
+	 echo -e "The Port must be numeric."
+	 echo -e "The valid range is 1-65535. eg: 19100"
+         read -r -p "Press input Port: " mysshPort
+	 until [[ $mysshPort =~ ^[0-9]{1,5}$ ]] && [[ $mysshPort -lt 65535 ]] && [[ $mysshPort -gt 0 ]]
+           do
+           echo -e "\n"
+	   echo -e "The Port must be numeric."
+	   echo -e "The valid range is 1-65535. eg: 19100"
+           read -r -p "Please input the Port again: " mysshPort
+         done
+         MYSSHPORT="-port ${mysshPort}";;
+	 *) MYSSHPORT="";;
+	 esac
+         echo -e "\nPlease check the custom data:"
+	 if [ "$MYPASSWORD" == '' ]; then
+         echo -e "\nPassword: Minijer.com"
+	 else
+         echo -e "\nPassword: $mypasswd"
+	 fi
+	 if [ "$MYSSHPORT" == '' ]; then
+         echo -e "\nSSH Port: 22\n"
+	 else
+         echo -e "\nSSH Port: $mysshPort\n"
+	 fi	 
+	 read -s -n1 -p "Press any key to continue..."; bash /tmp/InstallNET.sh -d 10 -v 64 $MYPASSWORD $MYSSHPORT $NETSTR $DMIRROR ;; 
     7) 
        echo -e "\n"
        read -r -p "Custom Password? [Y/n]: " input
@@ -328,11 +409,38 @@ function Start() {
 	   echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
            read -r -p "Please input the password again: " mypasswd
          done
-         MYPASSWORD="-p ${mypasswd}"
-         echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 9 -v 64 $MYPASSWORD $NETSTR $DMIRROR;;
-        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 9 -v 64 $NETSTR $DMIRROR;;
-      esac
-      ;; 
+         MYPASSWORD="-p ${mypasswd}";;
+	 *) MYPASSWORD="";;
+	 esac
+       read -r -p "Custom SSH Port? [Y/n]: " input
+       case $input in
+         [yY][eE][sS]|[yY])
+	 echo -e "\n"
+	 echo -e "The Port must be numeric."
+	 echo -e "The valid range is 1-65535. eg: 19100"
+         read -r -p "Press input Port: " mysshPort
+	 until [[ $mysshPort =~ ^[0-9]{1,5}$ ]] && [[ $mysshPort -lt 65535 ]] && [[ $mysshPort -gt 0 ]]
+           do
+           echo -e "\n"
+	   echo -e "The Port must be numeric."
+	   echo -e "The valid range is 1-65535. eg: 19100"
+           read -r -p "Please input the Port again: " mysshPort
+         done
+         MYSSHPORT="-port ${mysshPort}";;
+	 *) MYSSHPORT="";;
+	 esac
+         echo -e "\nPlease check the custom data:"
+	 if [ "$MYPASSWORD" == '' ]; then
+         echo -e "\nPassword: Minijer.com"
+	 else
+         echo -e "\nPassword: $mypasswd"
+	 fi
+	 if [ "$MYSSHPORT" == '' ]; then
+         echo -e "\nSSH Port: 22\n"
+	 else
+         echo -e "\nSSH Port: $mysshPort\n"
+	 fi	 
+	 read -s -n1 -p "Press any key to continue..."; bash /tmp/InstallNET.sh -d 9 -v 64 $MYPASSWORD $MYSSHPORT $NETSTR $DMIRROR ;;
     8)
        echo -e "\n"
        read -r -p "Custom Password? [Y/n]: " input
@@ -352,11 +460,38 @@ function Start() {
 	   echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
            read -r -p "Please input the password again: " mypasswd
          done
-         MYPASSWORD="-p ${mypasswd}"
-         echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 8 -v 64 $MYPASSWORD $NETSTR $DMIRROR;;
-        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -d 8 -v 64 $NETSTR $DMIRROR;;
-      esac
-      ;; 
+         MYPASSWORD="-p ${mypasswd}";;
+	 *) MYPASSWORD="";;
+	 esac
+       read -r -p "Custom SSH Port? [Y/n]: " input
+       case $input in
+         [yY][eE][sS]|[yY])
+	 echo -e "\n"
+	 echo -e "The Port must be numeric."
+	 echo -e "The valid range is 1-65535. eg: 19100"
+         read -r -p "Press input Port: " mysshPort
+	 until [[ $mysshPort =~ ^[0-9]{1,5}$ ]] && [[ $mysshPort -lt 65535 ]] && [[ $mysshPort -gt 0 ]]
+           do
+           echo -e "\n"
+	   echo -e "The Port must be numeric."
+	   echo -e "The valid range is 1-65535. eg: 19100"
+           read -r -p "Please input the Port again: " mysshPort
+         done
+         MYSSHPORT="-port ${mysshPort}";;
+	 *) MYSSHPORT="";;
+	 esac
+         echo -e "\nPlease check the custom data:"
+	 if [ "$MYPASSWORD" == '' ]; then
+         echo -e "\nPassword: Minijer.com"
+	 else
+         echo -e "\nPassword: $mypasswd"
+	 fi
+	 if [ "$MYSSHPORT" == '' ]; then
+         echo -e "\nSSH Port: 22\n"
+	 else
+         echo -e "\nSSH Port: $mysshPort\n"
+	 fi	 
+	 read -s -n1 -p "Press any key to continue..."; bash /tmp/InstallNET.sh -d 8 -v 64 $MYPASSWORD $MYSSHPORT $NETSTR $DMIRROR ;;
     9) 
        echo -e "\n"
        read -r -p "Custom Password? [Y/n]: " input
@@ -376,11 +511,38 @@ function Start() {
 	   echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
            read -r -p "Please input the password again: " mypasswd
          done
-         MYPASSWORD="-p ${mypasswd}"
-         echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 20.04 -v 64 $MYPASSWORD $NETSTR $UMIRROR;;
-        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 20.04 -v 64 $NETSTR $UMIRROR;;
-      esac
-      ;; 
+         MYPASSWORD="-p ${mypasswd}";;
+	 *) MYPASSWORD="";;
+	 esac
+       read -r -p "Custom SSH Port? [Y/n]: " input
+       case $input in
+         [yY][eE][sS]|[yY])
+	 echo -e "\n"
+	 echo -e "The Port must be numeric."
+	 echo -e "The valid range is 1-65535. eg: 19100"
+         read -r -p "Press input Port: " mysshPort
+	 until [[ $mysshPort =~ ^[0-9]{1,5}$ ]] && [[ $mysshPort -lt 65535 ]] && [[ $mysshPort -gt 0 ]]
+           do
+           echo -e "\n"
+	   echo -e "The Port must be numeric."
+	   echo -e "The valid range is 1-65535. eg: 19100"
+           read -r -p "Please input the Port again: " mysshPort
+         done
+         MYSSHPORT="-port ${mysshPort}";;
+	 *) MYSSHPORT="";;
+	 esac
+         echo -e "\nPlease check the custom data:"
+	 if [ "$MYPASSWORD" == '' ]; then
+         echo -e "\nPassword: Minijer.com"
+	 else
+         echo -e "\nPassword: $mypasswd"
+	 fi
+	 if [ "$MYSSHPORT" == '' ]; then
+         echo -e "\nSSH Port: 22\n"
+	 else
+         echo -e "\nSSH Port: $mysshPort\n"
+	 fi	 
+	 read -s -n1 -p "Press any key to continue..."; bash /tmp/InstallNET.sh -u 20.04 -v 64 $MYPASSWORD $MYSSHPORT $NETSTR $UMIRROR ;;
     10) 
        echo -e "\n"
        read -r -p "Custom Password? [Y/n]: " input
@@ -400,11 +562,38 @@ function Start() {
 	   echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
            read -r -p "Please input the password again: " mypasswd
          done
-         MYPASSWORD="-p ${mypasswd}"
-         echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 18.04 -v 64 $MYPASSWORD $NETSTR $UMIRROR;;
-        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 18.04 -v 64 $NETSTR $UMIRROR;;
-      esac
-      ;; 
+         MYPASSWORD="-p ${mypasswd}";;
+	 *) MYPASSWORD="";;
+	 esac
+       read -r -p "Custom SSH Port? [Y/n]: " input
+       case $input in
+         [yY][eE][sS]|[yY])
+	 echo -e "\n"
+	 echo -e "The Port must be numeric."
+	 echo -e "The valid range is 1-65535. eg: 19100"
+         read -r -p "Press input Port: " mysshPort
+	 until [[ $mysshPort =~ ^[0-9]{1,5}$ ]] && [[ $mysshPort -lt 65535 ]] && [[ $mysshPort -gt 0 ]]
+           do
+           echo -e "\n"
+	   echo -e "The Port must be numeric."
+	   echo -e "The valid range is 1-65535. eg: 19100"
+           read -r -p "Please input the Port again: " mysshPort
+         done
+         MYSSHPORT="-port ${mysshPort}";;
+	 *) MYSSHPORT="";;
+	 esac
+         echo -e "\nPlease check the custom data:"
+	 if [ "$MYPASSWORD" == '' ]; then
+         echo -e "\nPassword: Minijer.com"
+	 else
+         echo -e "\nPassword: $mypasswd"
+	 fi
+	 if [ "$MYSSHPORT" == '' ]; then
+         echo -e "\nSSH Port: 22\n"
+	 else
+         echo -e "\nSSH Port: $mysshPort\n"
+	 fi	 
+	 read -s -n1 -p "Press any key to continue..."; bash /tmp/InstallNET.sh -u 18.04 -v 64 $MYPASSWORD $MYSSHPORT $NETSTR $UMIRROR ;;
     11) 
        echo -e "\n"
        read -r -p "Custom Password? [Y/n]: " input
@@ -424,11 +613,38 @@ function Start() {
 	   echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
            read -r -p "Please input the password again: " mypasswd
          done
-         MYPASSWORD="-p ${mypasswd}"
-         echo -e "\nPassword: $mypasswd\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 16.04 -v 64 $MYPASSWORD $NETSTR $UMIRROR;;
-        *) echo -e "\nPassword: Minijer.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh -u 16.04 -v 64 $NETSTR $UMIRROR;;
-      esac
-      ;; 
+         MYPASSWORD="-p ${mypasswd}";;
+	 *) MYPASSWORD="";;
+	 esac
+       read -r -p "Custom SSH Port? [Y/n]: " input
+       case $input in
+         [yY][eE][sS]|[yY])
+	 echo -e "\n"
+	 echo -e "The Port must be numeric."
+	 echo -e "The valid range is 1-65535. eg: 19100"
+         read -r -p "Press input Port: " mysshPort
+	 until [[ $mysshPort =~ ^[0-9]{1,5}$ ]] && [[ $mysshPort -lt 65535 ]] && [[ $mysshPort -gt 0 ]]
+           do
+           echo -e "\n"
+	   echo -e "The Port must be numeric."
+	   echo -e "The valid range is 1-65535. eg: 19100"
+           read -r -p "Please input the Port again: " mysshPort
+         done
+         MYSSHPORT="-port ${mysshPort}";;
+	 *) MYSSHPORT="";;
+	 esac
+         echo -e "\nPlease check the custom data:"
+	 if [ "$MYPASSWORD" == '' ]; then
+         echo -e "\nPassword: Minijer.com"
+	 else
+         echo -e "\nPassword: $mypasswd"
+	 fi
+	 if [ "$MYSSHPORT" == '' ]; then
+         echo -e "\nSSH Port: 22\n"
+	 else
+         echo -e "\nSSH Port: $mysshPort\n"
+	 fi	 
+	 read -s -n1 -p "Press any key to continue..."; bash /tmp/InstallNET.sh -u 16.04 -v 64 $MYPASSWORD $MYSSHPORT $NETSTR $UMIRROR ;;
     12) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR12 $DMIRROR ;;
     13) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR13 $DMIRROR ;;
     14) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR14 $DMIRROR ;;
