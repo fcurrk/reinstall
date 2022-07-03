@@ -288,7 +288,7 @@ function Start() {
 	 else
          echo -e "\nSSH Port: $mysshPort\n"
 	 fi	 
-	 read -s -n1 -p "Press any key to continue..." 
+	 read -s -n1 -p "Press any key to continue..." ;;
     5) 
        echo -e "\n"
        read -r -p "Custom Password? [Y/n]: " input
