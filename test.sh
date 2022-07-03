@@ -266,7 +266,7 @@ function Start() {
 	 echo -e "The Port must be numeric."
 	 echo -e "The valid range is 1-65535. eg: 19100"
          read -r -p "Press input Port: " mysshPort
-	 until [[ $mysshPort =~ ^[0-9]{1,5}$]] && [[$mysshPort -lt 65535]] && [[$mysshPort -gt 0]]
+	 until [[ $mysshPort =~ ^[0-9]{1,5}$ ]] && [[ $mysshPort -lt 65535 ]] && [[ $mysshPort -gt 0 ]]
            do
            echo -e "\n"
 	   echo -e "The Port must be numeric."
