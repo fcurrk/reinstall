@@ -283,9 +283,9 @@ function Start() {
          echo -e "\nPassword: $mypasswd"
 	 fi
 	 if [ "$MYSSHPORT" == '' ]; then
-         echo -e "SSH Port: 22\n"
+         echo -e "\nSSH Port: 22\n"
 	 else
-         echo -e "SSH Port: $mysshPort\n"
+         echo -e "\nSSH Port: $mysshPort\n"
 	 fi	 
 	 read -s -n1 -p "Press any key to continue..." ;;
     5) 
