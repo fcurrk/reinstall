@@ -13,7 +13,7 @@ function CopyRight() {
   echo "#  New Reinstall Script                                #"
   echo "#                                                      #"
   echo "#  Author: Minijer & hiCasper                          #"
-  echo "#  Last Modified: 2022-06-13                           #"
+  echo "#  Last Modified: 2022-07-03                           #"
   echo "#                                                      #"
   echo "#  Shell By MoeClub                                    #"
   echo "#                                                      #"
