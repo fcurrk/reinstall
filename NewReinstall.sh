@@ -168,31 +168,31 @@ function Start() {
   SYSMIRROR6='http://disk.29296819.xyz/d/dd/os/cxthhhhh/Rocky_8.X_x64_UEFI_NetInstallation_Stable_v6.9.vhd.gz'
   SYSMIRROR7='http://disk.29296819.xyz/d/dd/os/cxthhhhh/Rocky_8.X_ARM64_UEFI_NetInstallation_Stable_v6.11.vhd.gz'
   SYSMIRROR8='http://disk.29296819.xyz/d/dd/os/cxthhhhh/CentOS_9.X_x64_Legacy_NetInstallation_Stable_v1.6.vhd.gz'
-  SYSMIRROR17='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2022_DataCenter_CN_v2.12.vhd.gz'
-  SYSMIRROR18='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2022_DataCenter_CN_v2.12_UEFI.vhd.gz'
-  SYSMIRROR19='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2019_DataCenter_CN_v5.1.vhd.gz'
-  SYSMIRROR20='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2016_DataCenter_CN_v4.12.vhd.gz'
-  SYSMIRROR21='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2012R2_DataCenter_CN_v4.29.vhd.gz'
-  SYSMIRROR22='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2008R2_DataCenter_CN_v3.27.vhd.gz'
-  SYSMIRROR23='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2003_DataCenter_CN_v7.1.vhd.gz'
-  SYSMIRROR24='https://disk.29296819.xyz/d/dd/os/teddysun/zh-cn_windows10_ltsc.xz'
-  SYSMIRROR25='https://disk.29296819.xyz/d/dd/os/teddysun/uefi/zh-cn_win10_ltsc_uefi.xz'
-  SYSMIRROR26='http://disk.29296819.xyz/d/dd/os/laosiji/Win7/guajibao/VirtAll-win7-sp1-ent/VirtAll-win7-sp1-ent-x86-cn.vhd.gzz'
-  SYSMIRROR27='http://disk.29296819.xyz/d/dd/os/laosiji/Win7/guajibao/guajibao-win7-sp1-ent-x86-cn-aliyun.vhd.gz'
-  SYSMIRROR28='http://disk.29296819.xyz/d/dd/os/laosiji/Win7/guajibao/VirtAll-win7-sp1-ent/VirtAll-win7-sp1-ent-x64-cn.vhd.gz'
-  SYSMIRROR29='http://disk.29296819.xyz/d/dd/os/laosiji/Win7/guajibao/guajibao-win7-sp1-ent-x64-cn-efi.vhd.gz'
-  SYSMIRROR30='http://disk.29296819.xyz/d/dd/os/laosiji/Win10/guajibao/guajibao-win10-ent-ltsc-2021-x64-cn.vhd.gz'
-  SYSMIRROR31='http://disk.29296819.xyz/d/dd/os/laosiji/Win10/guajibao/guajibao-win10-ent-ltsc-2021-x64-cn-aliyun.vhd.gz'
-  SYSMIRROR32='http://disk.29296819.xyz/d/dd/os/laosiji/Win10/guajibao/guajibao-win10-ent-ltsc-2021-x64-cn-efi.vhd.gz'
-  SYSMIRROR33='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2003/10G/WinSrv2003x86-Chinese-C10G.vhd.gz'
-  SYSMIRROR34='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2008x64/lite/winsrv2008r2-data-sp1-x64-cn.vhd.gz'
-  SYSMIRROR35='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2008x64/lite/winsrv2008r2-data-sp1-x64-cn-efi.vhd.gz'
-  SYSMIRROR36='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2012r2x64/guajibao/guajibao-winsrv2012r2-data-x64-cn.vhd.gz'
-  SYSMIRROR37='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2012r2x64/guajibao/guajibao-winsrv2012r2-data-x64-cn-efi.vhd.gz'
-  SYSMIRROR38='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2016x64/guajibao/guajibao-winsrv2016-data-x64-cn.vhd.gz'
-  SYSMIRROR39='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2016x64/guajibao/guajibao-winsrv2016-data-x64-cn-efi.vhd.gz'
-  SYSMIRROR40='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2022x64/guajibao/guajibao-winsrv2022-data-x64-cn.vhd.gz'
-  SYSMIRROR41='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2022x64/guajibao/guajibao-winsrv2022-data-x64-cn-efi.vhd.gz'
+  SYSMIRROR19='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2022_DataCenter_CN_v2.12.vhd.gz'
+  SYSMIRROR20='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2022_DataCenter_CN_v2.12_UEFI.vhd.gz'
+  SYSMIRROR21='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2019_DataCenter_CN_v5.1.vhd.gz'
+  SYSMIRROR22='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2016_DataCenter_CN_v4.12.vhd.gz'
+  SYSMIRROR23='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2012R2_DataCenter_CN_v4.29.vhd.gz'
+  SYSMIRROR24='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2008R2_DataCenter_CN_v3.27.vhd.gz'
+  SYSMIRROR25='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2003_DataCenter_CN_v7.1.vhd.gz'
+  SYSMIRROR26='https://disk.29296819.xyz/d/dd/os/teddysun/zh-cn_windows10_ltsc.xz'
+  SYSMIRROR27='https://disk.29296819.xyz/d/dd/os/teddysun/uefi/zh-cn_win10_ltsc_uefi.xz'
+  SYSMIRROR28='http://disk.29296819.xyz/d/dd/os/laosiji/Win7/guajibao/VirtAll-win7-sp1-ent/VirtAll-win7-sp1-ent-x86-cn.vhd.gzz'
+  SYSMIRROR29='http://disk.29296819.xyz/d/dd/os/laosiji/Win7/guajibao/guajibao-win7-sp1-ent-x86-cn-aliyun.vhd.gz'
+  SYSMIRROR30='http://disk.29296819.xyz/d/dd/os/laosiji/Win7/guajibao/VirtAll-win7-sp1-ent/VirtAll-win7-sp1-ent-x64-cn.vhd.gz'
+  SYSMIRROR31='http://disk.29296819.xyz/d/dd/os/laosiji/Win7/guajibao/guajibao-win7-sp1-ent-x64-cn-efi.vhd.gz'
+  SYSMIRROR32='http://disk.29296819.xyz/d/dd/os/laosiji/Win10/guajibao/guajibao-win10-ent-ltsc-2021-x64-cn.vhd.gz'
+  SYSMIRROR33='http://disk.29296819.xyz/d/dd/os/laosiji/Win10/guajibao/guajibao-win10-ent-ltsc-2021-x64-cn-aliyun.vhd.gz'
+  SYSMIRROR34='http://disk.29296819.xyz/d/dd/os/laosiji/Win10/guajibao/guajibao-win10-ent-ltsc-2021-x64-cn-efi.vhd.gz'
+  SYSMIRROR35='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2003/10G/WinSrv2003x86-Chinese-C10G.vhd.gz'
+  SYSMIRROR36='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2008x64/lite/winsrv2008r2-data-sp1-x64-cn.vhd.gz'
+  SYSMIRROR37='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2008x64/lite/winsrv2008r2-data-sp1-x64-cn-efi.vhd.gz'
+  SYSMIRROR38='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2012r2x64/guajibao/guajibao-winsrv2012r2-data-x64-cn.vhd.gz'
+  SYSMIRROR39='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2012r2x64/guajibao/guajibao-winsrv2012r2-data-x64-cn-efi.vhd.gz'
+  SYSMIRROR40='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2016x64/guajibao/guajibao-winsrv2016-data-x64-cn.vhd.gz'
+  SYSMIRROR41='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2016x64/guajibao/guajibao-winsrv2016-data-x64-cn-efi.vhd.gz'
+  SYSMIRROR42='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2022x64/guajibao/guajibao-winsrv2022-data-x64-cn.vhd.gz'
+  SYSMIRROR43='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2022x64/guajibao/guajibao-winsrv2022-data-x64-cn-efi.vhd.gz'
 
   if [[ "$isCN" == '1' ]];then
     CMIRROR="--mirror http://mirrors.aliyun.com/centos/"
@@ -207,31 +207,31 @@ function Start() {
     SYSMIRROR6='http://disk.29296819.xyz/d/dd/os/cxthhhhh/Rocky_8.X_x64_UEFI_NetInstallation_Stable_v6.9.vhd.gz'
     SYSMIRROR7='http://disk.29296819.xyz/d/dd/os/cxthhhhh/Rocky_8.X_ARM64_UEFI_NetInstallation_Stable_v6.11.vhd.gz'
     SYSMIRROR8='http://disk.29296819.xyz/d/dd/os/cxthhhhh/CentOS_9.X_x64_Legacy_NetInstallation_Stable_v1.6.vhd.gz'
-    SYSMIRROR17='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2022_DataCenter_CN_v2.12.vhd.gz'
-    SYSMIRROR18='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2022_DataCenter_CN_v2.12_UEFI.vhd.gz'
-    SYSMIRROR19='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2019_DataCenter_CN_v5.1.vhd.gz'
-    SYSMIRROR20='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2016_DataCenter_CN_v4.12.vhd.gz'
-    SYSMIRROR21='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2012R2_DataCenter_CN_v4.29.vhd.gz'
-    SYSMIRROR22='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2008R2_DataCenter_CN_v3.27.vhd.gz'
-    SYSMIRROR23='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2003_DataCenter_CN_v7.1.vhd.gz'
-    SYSMIRROR24='https://disk.29296819.xyz/d/dd/os/teddysun/zh-cn_windows10_ltsc.xz'
-    SYSMIRROR25='https://disk.29296819.xyz/d/dd/os/teddysun/uefi/zh-cn_win10_ltsc_uefi.xz'
-    SYSMIRROR26='http://disk.29296819.xyz/d/dd/os/laosiji/Win7/guajibao/VirtAll-win7-sp1-ent/VirtAll-win7-sp1-ent-x86-cn.vhd.gzz'
-    SYSMIRROR27='http://disk.29296819.xyz/d/dd/os/laosiji/Win7/guajibao/guajibao-win7-sp1-ent-x86-cn-aliyun.vhd.gz'
-    SYSMIRROR28='http://disk.29296819.xyz/d/dd/os/laosiji/Win7/guajibao/VirtAll-win7-sp1-ent/VirtAll-win7-sp1-ent-x64-cn.vhd.gz'
-    SYSMIRROR29='http://disk.29296819.xyz/d/dd/os/laosiji/Win7/guajibao/guajibao-win7-sp1-ent-x64-cn-efi.vhd.gz'
-    SYSMIRROR30='http://disk.29296819.xyz/d/dd/os/laosiji/Win10/guajibao/guajibao-win10-ent-ltsc-2021-x64-cn.vhd.gz'
-    SYSMIRROR31='http://disk.29296819.xyz/d/dd/os/laosiji/Win10/guajibao/guajibao-win10-ent-ltsc-2021-x64-cn-aliyun.vhd.gz'
-    SYSMIRROR32='http://disk.29296819.xyz/d/dd/os/laosiji/Win10/guajibao/guajibao-win10-ent-ltsc-2021-x64-cn-efi.vhd.gz'
-    SYSMIRROR33='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2003/10G/WinSrv2003x86-Chinese-C10G.vhd.gz'
-    SYSMIRROR34='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2008x64/lite/winsrv2008r2-data-sp1-x64-cn.vhd.gz'
-    SYSMIRROR35='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2008x64/lite/winsrv2008r2-data-sp1-x64-cn-efi.vhd.gz'
-    SYSMIRROR36='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2012r2x64/guajibao/guajibao-winsrv2012r2-data-x64-cn.vhd.gz'
-    SYSMIRROR37='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2012r2x64/guajibao/guajibao-winsrv2012r2-data-x64-cn-efi.vhd.gz'
-    SYSMIRROR38='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2016x64/guajibao/guajibao-winsrv2016-data-x64-cn.vhd.gz'
-    SYSMIRROR39='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2016x64/guajibao/guajibao-winsrv2016-data-x64-cn-efi.vhd.gz'
-    SYSMIRROR40='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2022x64/guajibao/guajibao-winsrv2022-data-x64-cn.vhd.gz'
-    SYSMIRROR41='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2022x64/guajibao/guajibao-winsrv2022-data-x64-cn-efi.vhd.gz'
+    SYSMIRROR19='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2022_DataCenter_CN_v2.12.vhd.gz'
+    SYSMIRROR20='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2022_DataCenter_CN_v2.12_UEFI.vhd.gz'
+    SYSMIRROR21='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2019_DataCenter_CN_v5.1.vhd.gz'
+    SYSMIRROR22='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2016_DataCenter_CN_v4.12.vhd.gz'
+    SYSMIRROR23='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2012R2_DataCenter_CN_v4.29.vhd.gz'
+    SYSMIRROR24='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2008R2_DataCenter_CN_v3.27.vhd.gz'
+    SYSMIRROR25='http://disk.29296819.xyz/d/dd/os/cxthhhhh/new/Disk_Windows_Server_2003_DataCenter_CN_v7.1.vhd.gz'
+    SYSMIRROR26='https://disk.29296819.xyz/d/dd/os/teddysun/zh-cn_windows10_ltsc.xz'
+    SYSMIRROR27='https://disk.29296819.xyz/d/dd/os/teddysun/uefi/zh-cn_win10_ltsc_uefi.xz'
+    SYSMIRROR28='http://disk.29296819.xyz/d/dd/os/laosiji/Win7/guajibao/VirtAll-win7-sp1-ent/VirtAll-win7-sp1-ent-x86-cn.vhd.gzz'
+    SYSMIRROR29='http://disk.29296819.xyz/d/dd/os/laosiji/Win7/guajibao/guajibao-win7-sp1-ent-x86-cn-aliyun.vhd.gz'
+    SYSMIRROR30='http://disk.29296819.xyz/d/dd/os/laosiji/Win7/guajibao/VirtAll-win7-sp1-ent/VirtAll-win7-sp1-ent-x64-cn.vhd.gz'
+    SYSMIRROR31='http://disk.29296819.xyz/d/dd/os/laosiji/Win7/guajibao/guajibao-win7-sp1-ent-x64-cn-efi.vhd.gz'
+    SYSMIRROR32='http://disk.29296819.xyz/d/dd/os/laosiji/Win10/guajibao/guajibao-win10-ent-ltsc-2021-x64-cn.vhd.gz'
+    SYSMIRROR33='http://disk.29296819.xyz/d/dd/os/laosiji/Win10/guajibao/guajibao-win10-ent-ltsc-2021-x64-cn-aliyun.vhd.gz'
+    SYSMIRROR34='http://disk.29296819.xyz/d/dd/os/laosiji/Win10/guajibao/guajibao-win10-ent-ltsc-2021-x64-cn-efi.vhd.gz'
+    SYSMIRROR35='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2003/10G/WinSrv2003x86-Chinese-C10G.vhd.gz'
+    SYSMIRROR36='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2008x64/lite/winsrv2008r2-data-sp1-x64-cn.vhd.gz'
+    SYSMIRROR37='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2008x64/lite/winsrv2008r2-data-sp1-x64-cn-efi.vhd.gz'
+    SYSMIRROR38='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2012r2x64/guajibao/guajibao-winsrv2012r2-data-x64-cn.vhd.gz'
+    SYSMIRROR39='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2012r2x64/guajibao/guajibao-winsrv2012r2-data-x64-cn-efi.vhd.gz'
+    SYSMIRROR40='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2016x64/guajibao/guajibao-winsrv2016-data-x64-cn.vhd.gz'
+    SYSMIRROR41='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2016x64/guajibao/guajibao-winsrv2016-data-x64-cn-efi.vhd.gz'
+    SYSMIRROR42='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2022x64/guajibao/guajibao-winsrv2022-data-x64-cn.vhd.gz'
+    SYSMIRROR43='http://disk.29296819.xyz/d/dd/os/laosiji/WinSrv2022x64/guajibao/guajibao-winsrv2022-data-x64-cn-efi.vhd.gz'
 
   fi
 
@@ -245,38 +245,40 @@ function Start() {
   echo "   7) Rocky 8 [ARM64-UEFI-cxthhhhh]"
   echo "   8) CentOS 9 [X64-Legacy-cxthhhhh]"
   echo "   9) CentOS 6"
-  echo "  10) Debian 11"
-  echo "  11) Debian 10"
-  echo "  12) Debian 9"
-  echo "  13) Debian 8"
-  echo "  14) Ubuntu 20.04"
-  echo "  15) Ubuntu 18.04"
-  echo "  16) Ubuntu 16.04"
-  echo "  17) Windows Server 2022 [X64-Legacy-cxthhhhh]"
-  echo "  18) Windows Server 2022 [X64-UEFI-cxthhhhh]"
-  echo "  19) Windows Server 2019 [X64-Legacy-cxthhhhh]"
-  echo "  20) Windows Server 2016 [X64-Legacy-cxthhhhh]"
-  echo "  21) Windows Server 2012 [X64-Legacy-cxthhhhh]"
-  echo "  22) Windows Server 2008 [X64-Legacy-cxthhhhh]"
-  echo "  23) Windows Server 2003 [X86-Legacy-cxthhhhh]"
-  echo "  24) Windows 10 LTSC [X64-Legacy-teddysun]"
-  echo "  25) Windows 10 LTSC [X64-UEFI-teddysun]"
-  echo "  26) Windows 7 x86 Lite [X86-Legacy-nat.ee]"
-  echo "  27) Windows 7 x86 Lite [X86-Legacy-aliyun-nat.ee]"
-  echo "  28) Windows 7 x64 Lite [X64-Legacy-nat.ee]"
-  echo "  29) Windows 7 x64 Lite [X64-UEFI-nat.ee]"
-  echo "  30) Windows 10 LTSC Lite [X64-Legacy-nat.ee]"
-  echo "  31) Windows 10 LTSC Lite [X64-Legacy-aliyun-nat.ee]"
-  echo "  32) Windows 10 LTSC Lite [X64-UEFI-nat.ee]"
-  echo "  33) Windows Server 2003 Lite [X86-Legacy-nat.ee]"
-  echo "  34) Windows Server 2008 Lite [X64-Legacy-nat.ee]"
-  echo "  35) Windows Server 2008 Lite [X64-UEFI-nat.ee]"
-  echo "  36) Windows Server 2012 Lite [X64-Legacy-nat.ee]"
-  echo "  37) Windows Server 2012 Lite [X64-UEFI-nat.ee]"
-  echo "  38) Windows Server 2016 Lite [X64-Legacy-nat.ee]"
-  echo "  39) Windows Server 2016 Lite [X64-UEFI-nat.ee]"
-  echo "  40) Windows Server 2022 Lite [X64-Legacy-nat.ee]"
-  echo "  41) Windows Server 2022 Lite [X64-UEFI-nat.ee]"
+  echo "  10) Debian 12"
+  echo "  11) Debian 11"
+  echo "  12) Debian 10"
+  echo "  13) Debian 9"
+  echo "  14) Debian 8"
+  echo "  15) Ubuntu 22.04"
+  echo "  16) Ubuntu 20.04"
+  echo "  17) Ubuntu 18.04"
+  echo "  18) Ubuntu 16.04"
+  echo "  19) Windows Server 2022 [X64-Legacy-cxthhhhh]"
+  echo "  20) Windows Server 2022 [X64-UEFI-cxthhhhh]"
+  echo "  21) Windows Server 2019 [X64-Legacy-cxthhhhh]"
+  echo "  22) Windows Server 2016 [X64-Legacy-cxthhhhh]"
+  echo "  23) Windows Server 2012 [X64-Legacy-cxthhhhh]"
+  echo "  24) Windows Server 2008 [X64-Legacy-cxthhhhh]"
+  echo "  25) Windows Server 2003 [X86-Legacy-cxthhhhh]"
+  echo "  26) Windows 10 LTSC [X64-Legacy-teddysun]"
+  echo "  27) Windows 10 LTSC [X64-UEFI-teddysun]"
+  echo "  28) Windows 7 x86 Lite [X86-Legacy-nat.ee]"
+  echo "  29) Windows 7 x86 Lite [X86-Legacy-aliyun-nat.ee]"
+  echo "  30) Windows 7 x64 Lite [X64-Legacy-nat.ee]"
+  echo "  31) Windows 7 x64 Lite [X64-UEFI-nat.ee]"
+  echo "  32) Windows 10 LTSC Lite [X64-Legacy-nat.ee]"
+  echo "  33) Windows 10 LTSC Lite [X64-Legacy-aliyun-nat.ee]"
+  echo "  34) Windows 10 LTSC Lite [X64-UEFI-nat.ee]"
+  echo "  35) Windows Server 2003 Lite [X86-Legacy-nat.ee]"
+  echo "  36) Windows Server 2008 Lite [X64-Legacy-nat.ee]"
+  echo "  37) Windows Server 2008 Lite [X64-UEFI-nat.ee]"
+  echo "  38) Windows Server 2012 Lite [X64-Legacy-nat.ee]"
+  echo "  39) Windows Server 2012 Lite [X64-UEFI-nat.ee]"
+  echo "  40) Windows Server 2016 Lite [X64-Legacy-nat.ee]"
+  echo "  41) Windows Server 2016 Lite [X64-UEFI-nat.ee]"
+  echo "  42) Windows Server 2022 Lite [X64-Legacy-nat.ee]"
+  echo "  43) Windows Server 2022 Lite [X64-UEFI-nat.ee]"
   echo "  99) Custom install"
   echo "   0) Exit"
   echo -ne "\nYour option: "
@@ -391,7 +393,7 @@ function Start() {
 	 else
          echo -e "\nSSH Port: $mysshPort\n"
 	 fi	 
-	 read -s -n1 -p "Press any key to continue..."; bash /tmp/InstallNET.sh -d 11 -v 64 $MYPASSWORD $MYSSHPORT $NETSTR $DMIRROR ;;
+	 read -s -n1 -p "Press any key to continue..."; bash /tmp/InstallNET.sh -d 12 -v 64 $MYPASSWORD $MYSSHPORT $NETSTR $DMIRROR ;;
     11) 
        echo -e "\n"
        read -r -p "Custom Password? [Y/n]: " input
@@ -442,7 +444,7 @@ function Start() {
 	 else
          echo -e "\nSSH Port: $mysshPort\n"
 	 fi	 
-	 read -s -n1 -p "Press any key to continue..."; bash /tmp/InstallNET.sh -d 10 -v 64 $MYPASSWORD $MYSSHPORT $NETSTR $DMIRROR ;; 
+	 read -s -n1 -p "Press any key to continue..."; bash /tmp/InstallNET.sh -d 11 -v 64 $MYPASSWORD $MYSSHPORT $NETSTR $DMIRROR ;;
     12) 
        echo -e "\n"
        read -r -p "Custom Password? [Y/n]: " input
@@ -493,8 +495,59 @@ function Start() {
 	 else
          echo -e "\nSSH Port: $mysshPort\n"
 	 fi	 
+	 read -s -n1 -p "Press any key to continue..."; bash /tmp/InstallNET.sh -d 10 -v 64 $MYPASSWORD $MYSSHPORT $NETSTR $DMIRROR ;; 
+    13) 
+       echo -e "\n"
+       read -r -p "Custom Password? [Y/n]: " input
+       case $input in
+         [yY][eE][sS]|[yY])
+	 echo -e "\n"
+	 echo -e "The password must start with character or numbers."
+	 echo -e "It can be character numbers and .!$@#&%"
+	 echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
+         read -r -p "Press input Password: " mypasswd
+	 until [[ "$mypasswd" =~ ^[a-zA-Z0-9][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
+           do
+           echo -e "\n"
+           echo -e "The password does not meet the requirements."
+	   echo -e "The password must start with character or numbers."
+	   echo -e "It can be character numbers and .!$@#&%"
+	   echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
+           read -r -p "Please input the password again: " mypasswd
+         done
+         MYPASSWORD="-p ${mypasswd}";;
+	 *) MYPASSWORD="";;
+	 esac
+       read -r -p "Custom SSH Port? [Y/n]: " input
+       case $input in
+         [yY][eE][sS]|[yY])
+	 echo -e "\n"
+	 echo -e "The Port must be numeric."
+	 echo -e "The valid range is 1-65535. eg: 19100"
+         read -r -p "Press input Port: " mysshPort
+	 until [[ $mysshPort =~ ^[0-9]{1,5}$ ]] && [[ $mysshPort -lt 65535 ]] && [[ $mysshPort -gt 0 ]]
+           do
+           echo -e "\n"
+	   echo -e "The Port must be numeric."
+	   echo -e "The valid range is 1-65535. eg: 19100"
+           read -r -p "Please input the Port again: " mysshPort
+         done
+         MYSSHPORT="-port ${mysshPort}";;
+	 *) MYSSHPORT="";;
+	 esac
+         echo -e "\nPlease check the custom data:"
+	 if [ "$MYPASSWORD" == '' ]; then
+         echo -e "\nPassword: Minijer.com"
+	 else
+         echo -e "\nPassword: $mypasswd"
+	 fi
+	 if [ "$MYSSHPORT" == '' ]; then
+         echo -e "\nSSH Port: 22\n"
+	 else
+         echo -e "\nSSH Port: $mysshPort\n"
+	 fi	 
 	 read -s -n1 -p "Press any key to continue..."; bash /tmp/InstallNET.sh -d 9 -v 64 $MYPASSWORD $MYSSHPORT $NETSTR $DMIRROR ;;
-    13)
+    14)
        echo -e "\n"
        read -r -p "Custom Password? [Y/n]: " input
        case $input in
@@ -545,57 +598,6 @@ function Start() {
          echo -e "\nSSH Port: $mysshPort\n"
 	 fi	 
 	 read -s -n1 -p "Press any key to continue..."; bash /tmp/InstallNET.sh -d 8 -v 64 $MYPASSWORD $MYSSHPORT $NETSTR $DMIRROR ;;
-    14) 
-       echo -e "\n"
-       read -r -p "Custom Password? [Y/n]: " input
-       case $input in
-         [yY][eE][sS]|[yY])
-	 echo -e "\n"
-	 echo -e "The password must start with character or numbers."
-	 echo -e "It can be character numbers and .!$@#&%"
-	 echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
-         read -r -p "Press input Password: " mypasswd
-	 until [[ "$mypasswd" =~ ^[a-zA-Z0-9][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
-           do
-           echo -e "\n"
-           echo -e "The password does not meet the requirements."
-	   echo -e "The password must start with character or numbers."
-	   echo -e "It can be character numbers and .!$@#&%"
-	   echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
-           read -r -p "Please input the password again: " mypasswd
-         done
-         MYPASSWORD="-p ${mypasswd}";;
-	 *) MYPASSWORD="";;
-	 esac
-       read -r -p "Custom SSH Port? [Y/n]: " input
-       case $input in
-         [yY][eE][sS]|[yY])
-	 echo -e "\n"
-	 echo -e "The Port must be numeric."
-	 echo -e "The valid range is 1-65535. eg: 19100"
-         read -r -p "Press input Port: " mysshPort
-	 until [[ $mysshPort =~ ^[0-9]{1,5}$ ]] && [[ $mysshPort -lt 65535 ]] && [[ $mysshPort -gt 0 ]]
-           do
-           echo -e "\n"
-	   echo -e "The Port must be numeric."
-	   echo -e "The valid range is 1-65535. eg: 19100"
-           read -r -p "Please input the Port again: " mysshPort
-         done
-         MYSSHPORT="-port ${mysshPort}";;
-	 *) MYSSHPORT="";;
-	 esac
-         echo -e "\nPlease check the custom data:"
-	 if [ "$MYPASSWORD" == '' ]; then
-         echo -e "\nPassword: Minijer.com"
-	 else
-         echo -e "\nPassword: $mypasswd"
-	 fi
-	 if [ "$MYSSHPORT" == '' ]; then
-         echo -e "\nSSH Port: 22\n"
-	 else
-         echo -e "\nSSH Port: $mysshPort\n"
-	 fi	 
-	 read -s -n1 -p "Press any key to continue..."; bash /tmp/InstallNET.sh -u 20.04 -v 64 $MYPASSWORD $MYSSHPORT $NETSTR $UMIRROR ;;
     15) 
        echo -e "\n"
        read -r -p "Custom Password? [Y/n]: " input
@@ -646,7 +648,7 @@ function Start() {
 	 else
          echo -e "\nSSH Port: $mysshPort\n"
 	 fi	 
-	 read -s -n1 -p "Press any key to continue..."; bash /tmp/InstallNET.sh -u 18.04 -v 64 $MYPASSWORD $MYSSHPORT $NETSTR $UMIRROR ;;
+	 read -s -n1 -p "Press any key to continue..."; bash /tmp/InstallNET.sh -u 22.04 -v 64 $MYPASSWORD $MYSSHPORT $NETSTR $UMIRROR ;;
     16) 
        echo -e "\n"
        read -r -p "Custom Password? [Y/n]: " input
@@ -697,32 +699,134 @@ function Start() {
 	 else
          echo -e "\nSSH Port: $mysshPort\n"
 	 fi	 
+	 read -s -n1 -p "Press any key to continue..."; bash /tmp/InstallNET.sh -u 20.04 -v 64 $MYPASSWORD $MYSSHPORT $NETSTR $UMIRROR ;;
+    17) 
+       echo -e "\n"
+       read -r -p "Custom Password? [Y/n]: " input
+       case $input in
+         [yY][eE][sS]|[yY])
+	 echo -e "\n"
+	 echo -e "The password must start with character or numbers."
+	 echo -e "It can be character numbers and .!$@#&%"
+	 echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
+         read -r -p "Press input Password: " mypasswd
+	 until [[ "$mypasswd" =~ ^[a-zA-Z0-9][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
+           do
+           echo -e "\n"
+           echo -e "The password does not meet the requirements."
+	   echo -e "The password must start with character or numbers."
+	   echo -e "It can be character numbers and .!$@#&%"
+	   echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
+           read -r -p "Please input the password again: " mypasswd
+         done
+         MYPASSWORD="-p ${mypasswd}";;
+	 *) MYPASSWORD="";;
+	 esac
+       read -r -p "Custom SSH Port? [Y/n]: " input
+       case $input in
+         [yY][eE][sS]|[yY])
+	 echo -e "\n"
+	 echo -e "The Port must be numeric."
+	 echo -e "The valid range is 1-65535. eg: 19100"
+         read -r -p "Press input Port: " mysshPort
+	 until [[ $mysshPort =~ ^[0-9]{1,5}$ ]] && [[ $mysshPort -lt 65535 ]] && [[ $mysshPort -gt 0 ]]
+           do
+           echo -e "\n"
+	   echo -e "The Port must be numeric."
+	   echo -e "The valid range is 1-65535. eg: 19100"
+           read -r -p "Please input the Port again: " mysshPort
+         done
+         MYSSHPORT="-port ${mysshPort}";;
+	 *) MYSSHPORT="";;
+	 esac
+         echo -e "\nPlease check the custom data:"
+	 if [ "$MYPASSWORD" == '' ]; then
+         echo -e "\nPassword: Minijer.com"
+	 else
+         echo -e "\nPassword: $mypasswd"
+	 fi
+	 if [ "$MYSSHPORT" == '' ]; then
+         echo -e "\nSSH Port: 22\n"
+	 else
+         echo -e "\nSSH Port: $mysshPort\n"
+	 fi	 
+	 read -s -n1 -p "Press any key to continue..."; bash /tmp/InstallNET.sh -u 18.04 -v 64 $MYPASSWORD $MYSSHPORT $NETSTR $UMIRROR ;;
+    18) 
+       echo -e "\n"
+       read -r -p "Custom Password? [Y/n]: " input
+       case $input in
+         [yY][eE][sS]|[yY])
+	 echo -e "\n"
+	 echo -e "The password must start with character or numbers."
+	 echo -e "It can be character numbers and .!$@#&%"
+	 echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
+         read -r -p "Press input Password: " mypasswd
+	 until [[ "$mypasswd" =~ ^[a-zA-Z0-9][a-zA-Z0-9\!\$\@\#\&\%\.]{8,16}$ ]]
+           do
+           echo -e "\n"
+           echo -e "The password does not meet the requirements."
+	   echo -e "The password must start with character or numbers."
+	   echo -e "It can be character numbers and .!$@#&%"
+	   echo -e "Password length limit 8-16 bits. eg: Minijer@520\n"
+           read -r -p "Please input the password again: " mypasswd
+         done
+         MYPASSWORD="-p ${mypasswd}";;
+	 *) MYPASSWORD="";;
+	 esac
+       read -r -p "Custom SSH Port? [Y/n]: " input
+       case $input in
+         [yY][eE][sS]|[yY])
+	 echo -e "\n"
+	 echo -e "The Port must be numeric."
+	 echo -e "The valid range is 1-65535. eg: 19100"
+         read -r -p "Press input Port: " mysshPort
+	 until [[ $mysshPort =~ ^[0-9]{1,5}$ ]] && [[ $mysshPort -lt 65535 ]] && [[ $mysshPort -gt 0 ]]
+           do
+           echo -e "\n"
+	   echo -e "The Port must be numeric."
+	   echo -e "The valid range is 1-65535. eg: 19100"
+           read -r -p "Please input the Port again: " mysshPort
+         done
+         MYSSHPORT="-port ${mysshPort}";;
+	 *) MYSSHPORT="";;
+	 esac
+         echo -e "\nPlease check the custom data:"
+	 if [ "$MYPASSWORD" == '' ]; then
+         echo -e "\nPassword: Minijer.com"
+	 else
+         echo -e "\nPassword: $mypasswd"
+	 fi
+	 if [ "$MYSSHPORT" == '' ]; then
+         echo -e "\nSSH Port: 22\n"
+	 else
+         echo -e "\nSSH Port: $mysshPort\n"
+	 fi	 
 	 read -s -n1 -p "Press any key to continue..."; bash /tmp/InstallNET.sh -u 16.04 -v 64 $MYPASSWORD $MYSSHPORT $NETSTR $UMIRROR ;;
-    17) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR17 $DMIRROR ;;
-    18) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR18 $DMIRROR ;;
-    19) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR19 $DMIRROR ;;
-    20) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR20 $DMIRROR ;;
-    21) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR21 $DMIRROR ;;
-    22) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR22 $DMIRROR ;;
-    23) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR23 $DMIRROR ;;
-    24) echo -e "\nPassword: Teddysun.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR24 $DMIRROR ;;
-    25) echo -e "\nPassword: Teddysun.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR25 $DMIRROR ;;
-    26) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR26 $DMIRROR ;;
-    27) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR27 $DMIRROR ;;
-    28) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR28 $DMIRROR ;;
-    29) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR29 $DMIRROR ;;
-    30) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR30 $DMIRROR ;;
-    31) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR31 $DMIRROR ;;
-    32) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR32 $DMIRROR ;;
-    33) echo -e "\nPassword: WinSrv2003x86-Chinese\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR33 $DMIRROR ;;
-    34) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR34 $DMIRROR ;;
-    34) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR35 $DMIRROR ;;
-    36) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR36 $DMIRROR ;;
-    37) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR37 $DMIRROR ;;
-    38) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR38 $DMIRROR ;;
-    39) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR39 $DMIRROR ;;
-    40) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR40 $DMIRROR ;;
-    41) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR41 $DMIRROR ;;
+    19) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR17 $DMIRROR ;;
+    20) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR18 $DMIRROR ;;
+    21) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR19 $DMIRROR ;;
+    22) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR20 $DMIRROR ;;
+    23) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR21 $DMIRROR ;;
+    24) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR22 $DMIRROR ;;
+    25) echo -e "\nPassword: cxthhhhh.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR23 $DMIRROR ;;
+    26) echo -e "\nPassword: Teddysun.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR24 $DMIRROR ;;
+    27) echo -e "\nPassword: Teddysun.com\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR25 $DMIRROR ;;
+    28) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR26 $DMIRROR ;;
+    29) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR27 $DMIRROR ;;
+    30) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR28 $DMIRROR ;;
+    31) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR29 $DMIRROR ;;
+    32) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR30 $DMIRROR ;;
+    33) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR31 $DMIRROR ;;
+    34) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR32 $DMIRROR ;;
+    35) echo -e "\nPassword: WinSrv2003x86-Chinese\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR33 $DMIRROR ;;
+    36) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR34 $DMIRROR ;;
+    37) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR35 $DMIRROR ;;
+    38) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR36 $DMIRROR ;;
+    39) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR37 $DMIRROR ;;
+    40) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR38 $DMIRROR ;;
+    41) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR39 $DMIRROR ;;
+    42) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR40 $DMIRROR ;;
+    43) echo -e "\nPassword: nat.ee\n"; read -s -n1 -p "Press any key to continue..." ; bash /tmp/InstallNET.sh $NETSTR -dd $SYSMIRROR41 $DMIRROR ;;
     99)
       echo -e "\n"
       read -r -p "Custom image URL: " imgURL
