@@ -13,7 +13,7 @@ function CopyRight() {
   echo "#  New Reinstall Script                                #"
   echo "#                                                      #"
   echo "#  Author: Minijer & hiCasper                          #"
-  echo "#  Last Modified: 2022-07-24                           #"
+  echo "#  Last Modified: 2023-03-13                           #"
   echo "#                                                      #"
   echo "#  Shell By MoeClub                                    #"
   echo "#                                                      #"
@@ -129,12 +129,17 @@ function NetMode() {
 
 function Start() {
   CopyRight
-  
-  isCN='0'
-  geoip=$(wget --no-check-certificate -qO- https://api.myip.com | grep "\"country\":\"China\"")
-  if [[ "$geoip" != "" ]];then
-    isCN='1'
-  fi
+  read -r -p "Using CN Mode? [Y/n]:" input
+  case $input in
+      [yY][eE][sS]|[yY]) isCN='1' ;;
+      [nN][oO]|[nN])
+      isCN='0'
+      geoip=$(wget --no-check-certificate -qO- https://api.myip.com | grep "\"country\":\"China\"")
+      if [[ "$geoip" != "" ]];then
+         isCN='1'
+      fi;;
+      *) clear; echo "Canceled by user!"; exit 1;;
+   esac
 
   if [ "$isAuto" == '0' ]; then
     echo "Using DHCP mode."
