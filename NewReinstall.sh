@@ -85,7 +85,6 @@ function SetNetwork() {
 
 function NetMode() {
   CopyRight
-
   if [ "$isAuto" == '0' ]; then
     read -r -p "Using DHCP to configure network automatically? [Y/n]:" input
     case $input in
@@ -128,7 +127,6 @@ function NetMode() {
 }
 
 function Start() {
-  CopyRight
   read -r -p "Using CN Mode? [Y/n]:" input
   case $input in
       [yY][eE][sS]|[yY]) isCN='1' ;;
